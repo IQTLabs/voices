@@ -10,8 +10,6 @@ aside: True
 
 ### Maria Barrios
 
-![Maria Barrios](http://www.rochester.edu/pr/Review/V71N6/images/feature2_2.jpg)
-
 Maria Alejandra Barrios Garcia has been interested in math and science for as long as she can remember.
 <img align="right" src="http://www.rochester.edu/pr/Review/V71N6/images/feature2_2.jpg">
 
