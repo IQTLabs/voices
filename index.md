@@ -1,5 +1,5 @@
 ---
-title: The VOiCES Corpus
+title: Description
 feature_text: |
   ## VOiCES
   Voices Obscured in Complex Environmental Scenarios
