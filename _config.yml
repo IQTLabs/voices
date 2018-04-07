@@ -36,16 +36,16 @@ paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+  username: lab41 # jekyll-seo-tag > Owners twitter username
 author: DavidDarnes # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: David Darnes # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+DavidDarnes
-    - https://github.com/daviddarnes
+    - https://twitter.com/lab41
+    - https://www.facebook.com/voices18
+    - https://www.linkedin.com/in/voices18
+    - https://plus.google.com/+voices18
+    - https://github.com/lab41
 
 # 4. Jekyll settings
 sass:
@@ -76,10 +76,10 @@ lang: en-GB # Set the site language
 title: "VOiCES" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/l41logo.jpg " # Site logo, also used in jekyll-seo-tag
 description: "SRI International and Lab41, In-Q-Tel, are proud to release the Voices Obscured in Complex Environmental Settings (VOICES) corpus, a collaborative effort that brings speech data in acoustically challenging reverberant environments to the researcher." # Site description and default description, also used in jekyll-seo-tag
-url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
+url: "https://lab41.org" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+repo: "https://github.com/voices18.github.io"
+email: "vsandesara@iqt.org"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 # google_analytics: ''
