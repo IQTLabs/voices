@@ -75,7 +75,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "VOiCES" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/l41logo.jpg " # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "SRI International and Lab41, In-Q-Tel, are proud to release the Voices Obscured in Complex Environmental Settings (VOICES) corpus, a collaborative effort that brings speech data in acoustically challenging reverberant environments to the researcher." # Site description and default description, also used in jekyll-seo-tag
 url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
