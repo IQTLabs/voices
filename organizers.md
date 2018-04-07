@@ -8,9 +8,15 @@ excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
 
+### Colleen Richey
+
+Colleen Richey
+<img align="right" src="https://www.sri.com/sites/default/files/styles/node_main/public/bios/colleen_richey_mp_310x226.jpg">
+
+
 ### Maria Barrios
 
-Maria Alejandra Barrios Garcia has been interested in math and science for as long as she can remember.
+Dr. Maria Alejandra Barrios Garcia has been interested in math and science for as long as she can remember.
 <img align="right" src="http://www.rochester.edu/pr/Review/V71N6/images/feature2_2.jpg">
 
 These days her experiments use laser-driven shock waves to turn polymers and other materials into ionized matter at “one of the best places to be doing this type of research”–the Laboratory for Laser Energetics. Her work, which revolves around extreme temperatures and pressures in a field known as high-energy density physics, is used in the University’s collaboration with the National Ignition Facility at the Lawrence Livermore National Laboratory in northern California.

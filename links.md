@@ -9,13 +9,13 @@ aside: True
 ---
 
 ### Sponsoring Organizations
-Lab41, In-Q-Tel
-SRI International
+- [Lab41](http://lab41.org), [In-Q-Tel](http://iqt.org)
+- [SRI International](http://sri.com)
 
 ### Participating Organizations
-MIT Lincoln Laboratory
-DeepGram
-Carnegie Melon
-Capio
+- MIT Lincoln Laboratory
+- DeepGram
+- Carnegie Melon
+- Capio
 
 
