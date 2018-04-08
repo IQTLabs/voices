@@ -61,7 +61,8 @@ collections:
     output: true
     description: "Here are upcoming and past events for VOiCES" # The post list page content
     feature_text: |
-      Corpus Events
+      ## VOiCES
+      Voices Obscured in Complex Environmental Scenarios
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
