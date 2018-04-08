@@ -1,0 +1,15 @@
+{
+  "lang": "en-GB",
+  "name": "VOiCES",
+  "short_name": "VOiCES",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/l41logo.jpg ",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}

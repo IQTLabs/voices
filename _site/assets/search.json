@@ -1,0 +1,61 @@
+
+
+[
+  
+  
+    
+    
+  
+  
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "Download",
+    "excerpt": "A demo of Markdown and HTML includes\n",
+    "content": "Heading 1\n\nHeading 2\n\nHeading 3\n\nHeading 4\n\nHeading 5\n\nHeading 6\n\nA small element\n\nA link\n\nLorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.\n\nDuis aute irure dolor in A link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.\n\n\n  An item\n  An item\n  An item\n  An item\n  An item\n\n\n\n  Item one\n  Item two\n  Item three\n  Item four\n  Item five\n\n\n\n  A simple blockquote\n\n\nSome HTML…\n\n&lt;blockquote cite=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;\n  &lt;p&gt;You planning a vacation, Mr. Sullivan?&lt;/p&gt;\n  &lt;footer&gt;\n    &lt;a href=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;Sunways Security Guard&lt;/a&gt;\n  &lt;/footer&gt;\n&lt;/blockquote&gt;\n\n\n…CSS…\n\nblockquote {\n  text-align: center;\n  font-weight: bold;\n}\nblockquote footer {\n  font-size: .8rem;\n}\n\n\n…and JavaScript\n\nconst blockquote = document.querySelector(\"blockquote\")\nconst bolden = (keyString, string) =&gt;\n  string.replace(new RegExp(keyString, 'g'), '&lt;strong&gt;'+keyString+'&lt;/strong&gt;')\n\nblockquote.innerHTML = bolden(\"Mr. Sullivan\", blockquote.innerHTML)\n\n\nSingle line of code\n\nHTML Includes\n\nContact form\n\n\n  \n    Name: *\n    \n\n    Email Address: *\n    \n\n    Message: *\n    \n\n    \n    \n    * indicates a required field\n\n    \n    \n    \n  \n\n\n\nPlease enable JavaScript to use the form.\n\nDemo map embed\n\n\n\nButton include\n\nA button\n\nA button with icon  twitter\n\n\nIcon include\n\ntwitter\ntwitter\n\n\nVideo include\n\n\n  \n\n\nImage includes\n\n\n  \n  Image with caption\n\n\n\n  \n  Right aligned image\n\n\n\n  \n  Center aligned image\n\n\n\n  \n  \n\n\n",
+    "url": "/downloads/"
+  },
+  
+  {
+    "title": "Description",
+    "excerpt": "A short description of the VOiCES corpus\n",
+    "content": "SRI International and Lab41, In-Q-Tel, are proud to release the Voices Obscured in Complex Environmental Settings (VOICES) corpus, a collaborative effort that brings speech data in acoustically challenging reverberant environments to the researcher. Clean speech was recorded in rooms of different sizes, each having distinct room acoustic profiles, with background noise played concurrently. These recordings provides audio data that better represent real-use scenarios. The intended purpose of this corpus is to promote acoustic research including, but not limited to:\n\n\n  speaker Identification, speech recognition, speaker detection\n  event and background classification, speech/non-speech\n  source separation and localization, noise reduction, general enhancement, acoustic quality metrics\n\n\nThe corpus contains the source audio, the retransmitted audio, orthographic transcriptions, and speaker labels. The ultimate goal of this corpus is to advance acoustic research by providing access to complex acoustic data. The corpus will be released as open source, Creative Commons BY 4.0, free for commercial, academic, and government use.\n\nDataset Details\n\nThis is one of the largest corpora to date that has transcriptions and simulatenously recorded real-world noise. The details:\n\n\n  Source Material: a total of 15 hours (3,903 audio files)\n  Language audio contains English read speech with male and females\n  Simulated Head Movement the loudspeaker playing the foreground speech was on a motorized rotating platform\n  Distractor Noise a large collection containing television, music, babble noise, and HVAC at various SNR\n  Multiple Rooms large, medium, and small, with various reverberation\n\n\nMore specific details can be seen at in our readme and paper in the reading section\n\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Description",
+    "excerpt": "Links and Contacts\n",
+    "content": "Sponsoring Organizations\n\n  Lab41, In-Q-Tel\n  SRI International\n\n\nParticipating Organizations\n\n  MIT Lincoln Laboratory\n  DeepGram\n  Carnegie Melon\n  Capio\n\n\n",
+    "url": "/links/"
+  },
+  
+  {
+    "title": "Organizers",
+    "excerpt": "A short description of the VOiCES corpus\n",
+    "content": "Colleen Richey\n\n\nColleen Richey TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\n\nMaria Barrios\n\n\nDr. Maria Alejandra Barrios Garcia TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\n\nAaron Lawson\n\n\nAaron Lawson, Ph.D., is Assistant Director of SRI International’s Speech Technology and Research (STAR) Laboratory. His research interests include voice forensics and biometrics, language and speaker identification from speech, social media information extraction, noise robustness, and fielding systems. At SRI, Lawson is the co-PI of the SAVI team for the DARPA MediFor program and is SRI transition lead for the DARPA RATS program. He currently leads the Human Language Technology project with JHU Applied Physics Lab, Forensic Speaker Recognition projects with the Federal Bureau of Investigation and transition efforts with the Navy and Special Operations Forces. He was PI for SRI’s LinguaKey team for DARPA Active Authentication. Past projects include IARPA REYNARD and BEST,\n\nPrior to joining SRI, Lawson was a research scientist at Air Force Research Laboratory/RADC in the Audio Processing Group. Earlier, he was a natural language processing researcher at TextWise, LLC.\n\nLawson has published more than 30 papers covering speech, natural language and linguistics. His Ph.D. in applied linguistics is from Cornell University.\n\nJeff Hetherly\n\n\nDr. Jeff Hetherly TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\n\nCory Stephenson\n\nDr. Cory Stephenson\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\nTEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT\n\nKarl Ni\n\n\nDr. Karl Ni is the Technical Director of Lab41, In-Q-Tel’s AI and machine learning analytics laboratory. His interests lie in computer vision, audio signal processing, speech recognition, and natural language processing. Prior to In-Q-Tel, Dr. Ni served as principle investigator and program manager on laboratory directed projects at federally funded research and development centers, both MIT Lincoln Laboratory and Lawrence Livermore National Laboratory. Projects started and led at these organizations resided under the President’s BRAIN initiative, the Departments of Defense and Homeland Security, and internally funded research. Dr. Ni received his doctoral degree from the University of California, San Diego in Pattern Recognition Techniques for Image Processing, and he received his bachelors degree from the University of California at Berkeley.\n",
+    "url": "/organizers/"
+  },
+  
+  {
+    "title": "Reading",
+    "excerpt": "A short description of the VOiCES corpus\n",
+    "content": "Dataset Description\n\n\n  Readme\n  Data format\n\n\nBlog Posts\n\n\n  Maria’s Blog Post\n\n\nPublications\n\n\n  Interspeech (ArXiv)\n  Abstract for ASA\n  Poster for ASA ?\n  Jeff’s Paper (ArXiv)\n  Cory’s Paper\n  Any references from SRI ?\n\n\n",
+    "url": "/reading/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": "{% include site-search.html %}\n",
+    "url": "/search/"
+  }
+  
+]
+
