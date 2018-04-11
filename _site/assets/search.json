@@ -16,9 +16,9 @@
   },
   
   {
-    "title": "Download",
-    "excerpt": "A demo of Markdown and HTML includes\n",
-    "content": "Heading 1\n\nHeading 2\n\nHeading 3\n\nHeading 4\n\nHeading 5\n\nHeading 6\n\nA small element\n\nA link\n\nLorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.\n\nDuis aute irure dolor in A link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.\n\n\n  An item\n  An item\n  An item\n  An item\n  An item\n\n\n\n  Item one\n  Item two\n  Item three\n  Item four\n  Item five\n\n\n\n  A simple blockquote\n\n\nSome HTML…\n\n&lt;blockquote cite=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;\n  &lt;p&gt;You planning a vacation, Mr. Sullivan?&lt;/p&gt;\n  &lt;footer&gt;\n    &lt;a href=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;Sunways Security Guard&lt;/a&gt;\n  &lt;/footer&gt;\n&lt;/blockquote&gt;\n\n\n…CSS…\n\nblockquote {\n  text-align: center;\n  font-weight: bold;\n}\nblockquote footer {\n  font-size: .8rem;\n}\n\n\n…and JavaScript\n\nconst blockquote = document.querySelector(\"blockquote\")\nconst bolden = (keyString, string) =&gt;\n  string.replace(new RegExp(keyString, 'g'), '&lt;strong&gt;'+keyString+'&lt;/strong&gt;')\n\nblockquote.innerHTML = bolden(\"Mr. Sullivan\", blockquote.innerHTML)\n\n\nSingle line of code\n\nHTML Includes\n\nContact form\n\n\n  \n    Name: *\n    \n\n    Email Address: *\n    \n\n    Message: *\n    \n\n    \n    \n    * indicates a required field\n\n    \n    \n    \n  \n\n\n\nPlease enable JavaScript to use the form.\n\nDemo map embed\n\n\n\nButton include\n\nA button\n\nA button with icon  twitter\n\n\nIcon include\n\ntwitter\ntwitter\n\n\nVideo include\n\n\n  \n\n\nImage includes\n\n\n  \n  Image with caption\n\n\n\n  \n  Right aligned image\n\n\n\n  \n  Center aligned image\n\n\n\n  \n  \n\n\n",
+    "title": "Reading",
+    "excerpt": "A short description of the VOiCES corpus\n",
+    "content": "Stay Tuned, Coming Soon\n\nWe are in the midst of uploading all of our files onto Amazon and it is taking a while!\n",
     "url": "/downloads/"
   },
   
@@ -32,7 +32,7 @@
   {
     "title": "Description",
     "excerpt": "Links and Contacts\n",
-    "content": "Sponsoring Organizations\n\n  Lab41, In-Q-Tel\n  SRI International\n\n\nParticipating Organizations\n\n  MIT Lincoln Laboratory\n  DeepGram\n  Carnegie Melon\n  Capio\n\n\n",
+    "content": "Sponsoring Organizations\n\n  \n \n  \n\n\nParticipating Organizations\n\n  MIT Lincoln Laboratory\n  DeepGram\n  Carnegie Melon\n  Capio\n\n\n",
     "url": "/links/"
   },
   
@@ -46,7 +46,7 @@
   {
     "title": "Reading",
     "excerpt": "A short description of the VOiCES corpus\n",
-    "content": "Dataset Description\n\n\n  Readme\n  Data format\n\n\nBlog Posts\n\n\n  Maria’s Blog Post\n\n\nPublications\n\n\n  Interspeech (ArXiv)\n  Abstract for ASA\n  Poster for ASA ?\n  Jeff’s Paper (ArXiv)\n  Cory’s Paper\n  Any references from SRI ?\n\n\n",
+    "content": "Dataset Description\n\nData format\n\n\n  \n    \n      File Code\n      Type\n      Definition\n    \n  \n  \n    \n      Lab41-SRI-VOiCES\n      General info\n      Data set name: Lab41-SRI Voices Obscured in Complex Environmental Settings\n    \n    \n      rm1\n      Recording location\n      Room-1: dimensions 146” x 107” (x 107” height)\n    \n    \n      rm2\n      Recording location\n      Room-2: dimensions 225” x 158” (x 109” height)\n    \n    \n      scr\n      Source audio\n      Source audio for foreground speaker\n    \n    \n      none\n      Background noise\n      No distractor noise played\n    \n    \n      musi\n      Background noise\n      Music distractor noise played\n    \n    \n      tele\n      Background noise\n      Television distractor noise played\n    \n    \n      babb\n      Background noise\n      Babble distractor noise played\n    \n    \n      stu\n      Microphone type\n      Cardioid dynamic studio microphone\n    \n    \n      lav\n      Microphone type\n      Omnidirectional condenser lavalier microphone\n    \n    \n      clo\n      Location\n      Closest to foreground speaker- on table\n    \n    \n      mid\n      Location\n      Mid-distance to foreground speaker- on table\n    \n    \n      far\n      Location\n      Farthest to foreground speaker- on stand\n    \n    \n      beh\n      Location\n      Behind foreground speaker- on stand\n    \n    \n      cei\n      Location\n      Overhead - hanging from ceiling\n    \n    \n      ceo\n      Location\n      Overhead - hanging from ceiling / obstructed\n    \n    \n      impulse\n      Room response\n      Two seconds with transient sound in middle\n    \n    \n      swoop\n      Room response\n      Rising tone for 20 seconds\n    \n    \n      tone\n      Room response\n      Steady tone for 15 seconds\n    \n  \n\n\nBlog Posts\n\n\n  Maria’s Blog Post\n\n\nPublications\n\n\n  Interspeech (ArXiv)\n  Abstract for ASA\n  Poster for ASA ?\n  Jeff’s Paper (ArXiv)\n  Cory’s Paper\n  Any references from SRI ?\n\n\n",
     "url": "/reading/"
   },
   
