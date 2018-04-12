@@ -5,7 +5,7 @@ feature_text: |
   Voices Obscured in Complex Environmental Scenarios
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "A short description of the VOiCES corpus"
-aside: True
+aside: False
 ---
 
 ## Dataset Description
@@ -20,8 +20,9 @@ Naming convention for audio at a distance include all the above information, wit
 
 ---
 Possible descriptors are show in the table below:
-
+---
 | File Code        | Type               | Definition                                                                 |
+---
 |------------------|--------------------|-------------------------------------------------------|
 | Lab41-SRI-VOiCES | General info       | Data set name: Lab41-SRI Voices Obscured in Complex Environmental Settings |
 | rm1              | Recording location | Room-1: dimensions 146” x 107” (x 107” height)                             |
