@@ -75,7 +75,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "VOiCES" # Site name or title, also used in jekyll-seo-tag
-logo: "/images/VOICE_logo.png" # Site logo, also used in jekyll-seo-tag
+logo: "/images/VOiCES_logo.png" # Site logo, also used in jekyll-seo-tag
 description: "The Voices Obscured in Complex Environmental Settings (VOiCES) corpus is a creative commons speech dataset targeting acoustically challenging and reverberant environments with robust labels and truth data for transcription, denoising, and speaker identification." # Site description and default description, also used in jekyll-seo-tag
 url: "https://lab41.org" # Site url, also used in jekyll-seo-tag
 baseurl: ""
