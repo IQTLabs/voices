@@ -48,8 +48,38 @@ Possible descriptors for room, distractor noise, microphone type and micrphone l
 ---
 Microphone identification numbers are unique to a specific microphone location and type:
 
-| Mic ID        | Mic Location               | Mic Type
-|------------------|--------------------|-------------------------------------------------------|
+<table>
+<colgroup>
+<col width="10%" />
+<col width="40%" />
+<col width="40%" />>
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mic ID</th>
+<th>Mic Location</th>
+<th>Mic Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">01</td>
+<td markdown="span">clo</td>
+<td markdown="span">stu</td>
+</tr>
+<tr>
+<td markdown="span">02</td>
+<td markdown="span">clo</td>
+<td markdown="span">stu</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+| Mic ID        | Mic Location       | Mic Type
+|---------------|--------------------|-------------------------------------------------------|
 | Lab41-SRI-VOiCES | General info       | Data set name: Lab41-SRI Voices Obscured in Complex Environmental Settings |
 | rm1              | Recording location | Room-1: dimensions 146” x 107” (x 107” height)                             |
 | rm2              | Recording location | Room-2: dimensions 225” x 158” (x 109” height)                             |
