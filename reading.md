@@ -21,6 +21,15 @@ Naming convention for audio at a distance include all the above information, wit
 ---
 Possible descriptors for room, distractor noise, microphone type and micrphone location, are listed below:
 
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
 | File Code        | Type               | Definition                                                            
 |------------------|--------------------|-------------------------------------------------------|
 | rm1              | Room | Room-1: dimensions 146” x 107” (x 107” height)                             |
@@ -47,11 +56,6 @@ Possible descriptors for room, distractor noise, microphone type and micrphone l
 ---
 Microphone identification numbers are unique to a specific microphone location and type:
 
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-</style>
 <table style="width:100%">
 <thead>
 <tr class="header">
