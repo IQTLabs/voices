@@ -52,24 +52,19 @@ table, th, td {
     border: 1px solid black;
 }
 </style>
-<table>
-<colgroup>
-<col width="20%" />
-<col width="35%" />
-<col width="35%" />>
-</colgroup>
+<table style="width:100%">
 <thead>
 <tr class="header">
-<th>Mic ID</th>
-<th>Location</th>
-<th>Type</th>
+<th> Mic ID</th>
+<th >Location</th>
+<th> Type</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td markdown="span">01</td>
-<td markdown="span">clo</td>
-<td markdown="span">stu</td>
+<td markdown="span"> 01</td>
+<td markdown="span"> clo</td>
+<td markdown="span"> stu</td>
 </tr>
 <tr>
 <td markdown="span">02</td>
