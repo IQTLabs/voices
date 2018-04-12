@@ -56,6 +56,16 @@ th, td {
 ---
 Microphone identification numbers are unique to a specific microphone location and typeas described below:
 
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
 | Mic_ID | Location | Type
 |--------|----------|----------|
 | 01     | clo      | stu      |
