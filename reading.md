@@ -81,13 +81,13 @@ Microphone identification numbers are unique to a specific microphone location a
 
 
 
-| Mic ID        | Mic Location       | Mic Type
-|---------------|--------------------|-------------------------------------------------------|
-| Lab41-SRI-VOiCES | General info       | Data set name: Lab41-SRI Voices Obscured in Complex Environmental Settings |
-| rm1              | Recording location | Room-1: dimensions 146” x 107” (x 107” height)                             |
+| ID  | Location  | Type 
+|-----|-----------|-------|
+| 01 | clo      | stu |
+| 02 | Recording location | Room-1: dimensions 146” x 107” (x 107” height)                             |
 | rm2              | Recording location | Room-2: dimensions 225” x 158” (x 109” height)                             |
 
-| Mic ID | Mic Location | Mic Type |
+| Mic ID | Mic Location | Mic Type
 |--------|--------------|----------|
 | 01     | clo          | stu      |
 | 02     | clo          | lav      |
