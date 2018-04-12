@@ -3,7 +3,7 @@ title: Reading
 feature_text: |
   ## VOiCES
   Voices Obscured in Complex Environmental Scenarios
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "https://picsum.photos/1300/400?random"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
