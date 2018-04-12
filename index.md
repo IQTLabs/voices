@@ -1,7 +1,7 @@
 ---
 title: Description
 feature_text: |
-  ## VOiCES
+  ## Introducing the VOiCES Dataset Description
   Voices Obscured in Complex Environmental Scenarios
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "A short description of the VOiCES corpus"

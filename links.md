@@ -1,7 +1,7 @@
 ---
 title: Description
 feature_text: |
-  ## VOiCES
+  ## Links to Sponsoring Organizations
   Voices Obscured in Complex Environmental Scenarios
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Links and Contacts"

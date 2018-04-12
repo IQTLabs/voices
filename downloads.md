@@ -1,7 +1,7 @@
 ---
 title: Reading
 feature_text: |
-  ## VOiCES
+  ## Download Page Links
   Voices Obscured in Complex Environmental Scenarios
 feature_image: "https://picsum.photos/1300/400?random"
 excerpt: "A short description of the VOiCES corpus"
