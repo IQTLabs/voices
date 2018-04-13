@@ -62,7 +62,7 @@ collections:
     description: "Here are upcoming and past events for VOiCES" # The post list page content
     feature_text: |
       ## News, Events, and Meetings
-      Where and when you can talk to staff about the VOiCES corpus
+      Where and when you can talk to staff about VOiCES
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
