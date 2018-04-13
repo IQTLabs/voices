@@ -16,7 +16,7 @@ SRI International and Lab41, In-Q-Tel, are proud to release the Voices Obscured 
 
 The corpus contains the source audio, the retransmitted audio, orthographic transcriptions, and speaker labels. The ultimate goal of this corpus is to advance acoustic research by providing access to complex acoustic data. The corpus will be released as open source, Creative Commons BY 4.0, free for commercial, academic, and government use.
 
-![Rando Image](https://images-puremix.akamaized.net/cache/pmmodalimages/images/interface/images_articles/2013_10_08_mic_shootouts/3_mics_300_300.jpg)
+<p align="center"><img src="https://images-puremix.akamaized.net/cache/pmmodalimages/images/interface/images_articles/2013_10_08_mic_shootouts/3_mics_300_300.jpg"></p>
 
 ### Dataset Details
 
