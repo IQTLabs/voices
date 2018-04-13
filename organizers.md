@@ -57,7 +57,7 @@ Dr. Paul Gamble studied Biophysics at the University of Pennsylvania and receive
 ### Cory Stephenson
 
 <img align="right" width="300" src="/images/cory_stephenson.jpg">
-Dr. Cory Stephenson is a data scientist at Lab41, In-Q-Tel.  His background is in complex systems and non-equilibrium thermodynamics.  His most recent work is in the application of machine learning and deep learning methods to audio signal processing.
+Dr. Cory Stephenson is a data scientist at Lab41, In-Q-Tel.  His background is in complex systems and non-equilibrium thermodynamics.  His most recent work is in the application of machine learning and deep learning methods to audio signal processing. Dr. Stephenson received his Ph.D. from the University of Illinois at Urbana-Champaign.
 
 
 ### Karl Ni

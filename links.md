@@ -1,12 +1,15 @@
 ---
 title: Description
 feature_text: |
-  ## Links to Sponsoring Organizations
+  ## Links to Competitions and Sponsors
   Voices Obscured in Complex Environmental Scenarios
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Links and Contacts"
 aside: True
 ---
+
+### Competitions
+- Coming Soon!
 
 ### Sponsoring Organizations
 - <a href="http://lab41.org"><img align="center" width="200" src="/assets/l41logo.jpg"></a>
