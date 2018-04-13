@@ -15,8 +15,6 @@ aside: True
 
 ### Participating Organizations
 - <a href="http://www.ll.mit.edu">MIT Lincoln Laboratory</a>
-- DeepGram
-- Carnegie Melon
-- Capio
+- <a href="http://aws.amazon.com">Amazon Web Services</a>
 
 
