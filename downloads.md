@@ -10,4 +10,5 @@ aside: True
 
 ### Stay Tuned, Coming Soon
 
-We are in the midst of uploading all of our files onto Amazon and it is taking a while!
+We are in the midst of uploading all of our files onto Amazon Web Services. We will post an announcement once
+it is up and ready to go!
