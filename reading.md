@@ -49,9 +49,10 @@ th, td {
 | ceo              | Mic location       | Overhead on ceiling, fully obstructed                                      |
 | tbo              | Mic location       | Partially obstructed - table                                               |
 | wlo              | Mic location       | Fully obstructed - wall                                                    |
-| impulse          | Room response      | Two seconds with transient sound in middle                                 |
-| swoop            | Room response      | Rising tone for 20 seconds                                                 |
-| tone             | Room response      | Steady tone for 15 seconds                                                 |
+| impulse          | Signal             | Two seconds with transient sound in middle, for room response              |
+| swoop            | Signal             | Rising tone for 20 seconds, for room response                              |
+| tone             | signal             | Steady tone for 15 seconds, for room response                              |
+
 
 ---
 Microphone identification numbers are unique to a specific microphone location and typeas described below:
@@ -66,21 +67,28 @@ th, td {
 }
 </style>
 
-| Mic_ID | Location | Type
-|--------|----------|----------|
-| 01     | clo      | stu      |
-| 02     | clo      | lav      |
-| 03     | mid      | stu      |
-| 04     | mid      | lav      |
-| 05     | far      | stu      |
-| 06     | far      | lav      |
-| 07     | beh      | stu      |
-| 08     | beh      | lav      |
-| 09     | tbo      | lav      |
-| 10     | cec      | lav      |
-| 11     | ceo      | lav      |
-| 12     | wlo      | lav      |
-___
+| Mic_ID | Location  | Type
+|--------|-----------|-------|
+| 01     | clo       | stu   |
+| 02     | clo       | lav   |
+| 03     | mid       | stu   |
+| 04     | mid       | lav   |
+| 05     | far       | stu   |
+| 06     | far       | lav   |
+| 07     | beh       | stu   |
+| 08     | beh       | lav   |
+| 09     | tbo       | lav   |
+| 10     | cec       | lav   |
+| 11     | ceo       | lav   |
+| 12     | wlo       | lav   |
+
+---
+
+Audio files to characterize the room response are available:
+> Lab41-SRI-VOiCES-< room >-< signal >-mc< mic_ID >-< mic_type >-< mic_location >.wav
+
+As are recordings of distactor noise only or ambient room background only:
+> Lab41-SRI-VOiCES-< distractor_noise >-mc< mic_ID >-< mic_type >-< mic_location >.wav
 
 ## Blog Posts
 
