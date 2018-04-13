@@ -24,7 +24,7 @@
 <meta name="twitter:site" content="@_lab41" />
 <meta name="twitter:creator" content="@VishalSandesara# jekyll-seo-tag > default author" />
 <script type="application/ld+json">
-{"description":"A short description of the VOiCES corpus","author":{"@type":"Person","name":"VishalSandesara# jekyll-seo-tag > default author"},"@type":"WebPage","url":"http://localhost:4000/reading/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/VOICE_logo.png"},"name":"VishalSandesara# jekyll-seo-tag > default author"},"image":"http://localhost:4000/assets/default-social-image.png","headline":"Reading","@context":"http://schema.org"}</script>
+{"description":"A short description of the VOiCES corpus","author":{"@type":"Person","name":"VishalSandesara# jekyll-seo-tag > default author"},"@type":"WebPage","url":"http://localhost:4000/reading/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/VOiCES_logo.png"},"name":"VishalSandesara# jekyll-seo-tag > default author"},"image":"http://localhost:4000/assets/default-social-image.png","headline":"Reading","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -79,7 +79,7 @@
     <header class="header">
   <div class="container">
     <a class="logo" href="/">
-  <img src="/images/VOICE_logo.png" alt="VOiCES logo"/>
+  <img src="/images/VOiCES_logo.png" alt="VOiCES logo"/>
 </a>
 
 
@@ -184,8 +184,8 @@ applyToggle('.list--nav', '.button', 640)
 
   <div class="feature" style="background-image: url(https://picsum.photos/1300/400?image=989)">
     <div class="container  typeset">
-      <h2 id="voices">VOiCES</h2>
-<p>Voices Obscured in Complex Environmental Scenarios</p>
+      <h2 id="dataset-specifics-and-reading-material">Dataset Specifics and Reading Material</h2>
+<p>Implementation details, file formats, and paper links</p>
 
     </div>
   </div>
@@ -203,6 +203,28 @@ applyToggle('.list--nav', '.button', 640)
 
 <h3 id="data-format">Data format</h3>
 
+<p>Audio files will be available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:</p>
+<blockquote>
+  <p>Lab41-SRI-VOiCES-scr-sp&lt; speaker_ID &gt;-ch&lt; chapter_ID &gt;-sg&lt; segmetn_ID &gt;.wav</p>
+</blockquote>
+
+<p>Naming convention for audio at a distance include all the above information, with additional descriptors for room, distractor noise, microphone type, microphone location, and position of foreground speaker in degrees. The file naming format is shown below:</p>
+<blockquote>
+  <p>Lab41-SRI-VOiCES-&lt; room &gt;-&lt; distractor_noise &gt;-sp&lt; speaker_ID &gt;-ch&lt; chapter_ID &gt;-seg&lt; segment_ID &gt;-mc&lt; mic_ID &gt;-&lt; mic_type &gt;-&lt; mic_location &gt;-dg&lt; degree &gt;.wav</p>
+</blockquote>
+
+<hr />
+<p>Possible descriptors for room, distractor noise, microphone type, and micrphone location, are show in the table.</p>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
 <table>
   <thead>
     <tr>
@@ -213,18 +235,13 @@ applyToggle('.list--nav', '.button', 640)
   </thead>
   <tbody>
     <tr>
-      <td>Lab41-SRI-VOiCES</td>
-      <td>General info</td>
-      <td>Data set name: Lab41-SRI Voices Obscured in Complex Environmental Settings</td>
-    </tr>
-    <tr>
       <td>rm1</td>
-      <td>Recording location</td>
+      <td>Room</td>
       <td>Room-1: dimensions 146” x 107” (x 107” height)</td>
     </tr>
     <tr>
       <td>rm2</td>
-      <td>Recording location</td>
+      <td>Room</td>
       <td>Room-2: dimensions 225” x 158” (x 109” height)</td>
     </tr>
     <tr>
@@ -234,97 +251,200 @@ applyToggle('.list--nav', '.button', 640)
     </tr>
     <tr>
       <td>none</td>
-      <td>Background noise</td>
+      <td>Distractor noise</td>
       <td>No distractor noise played</td>
     </tr>
     <tr>
       <td>musi</td>
-      <td>Background noise</td>
+      <td>Distractor noise</td>
       <td>Music distractor noise played</td>
     </tr>
     <tr>
       <td>tele</td>
-      <td>Background noise</td>
+      <td>Distractor noise</td>
       <td>Television distractor noise played</td>
     </tr>
     <tr>
       <td>babb</td>
-      <td>Background noise</td>
+      <td>Distractor noise</td>
       <td>Babble distractor noise played</td>
     </tr>
     <tr>
       <td>stu</td>
-      <td>Microphone type</td>
+      <td>Mic type</td>
       <td>Cardioid dynamic studio microphone</td>
     </tr>
     <tr>
       <td>lav</td>
-      <td>Microphone type</td>
+      <td>Mic type</td>
       <td>Omnidirectional condenser lavalier microphone</td>
     </tr>
     <tr>
       <td>clo</td>
-      <td>Location</td>
+      <td>Mic location</td>
       <td>Closest to foreground speaker- on table</td>
     </tr>
     <tr>
       <td>mid</td>
-      <td>Location</td>
+      <td>Mic location</td>
       <td>Mid-distance to foreground speaker- on table</td>
     </tr>
     <tr>
       <td>far</td>
-      <td>Location</td>
+      <td>Mic location</td>
       <td>Farthest to foreground speaker- on stand</td>
     </tr>
     <tr>
       <td>beh</td>
-      <td>Location</td>
+      <td>Mic location</td>
       <td>Behind foreground speaker- on stand</td>
     </tr>
     <tr>
-      <td>cei</td>
-      <td>Location</td>
-      <td>Overhead - hanging from ceiling</td>
+      <td>cec</td>
+      <td>Mic location</td>
+      <td>Overhead on ceiling, clear</td>
     </tr>
     <tr>
       <td>ceo</td>
-      <td>Location</td>
-      <td>Overhead - hanging from ceiling / obstructed</td>
+      <td>Mic location</td>
+      <td>Overhead on ceiling, fully obstructed</td>
+    </tr>
+    <tr>
+      <td>tbo</td>
+      <td>Mic location</td>
+      <td>Partially obstructed - table</td>
+    </tr>
+    <tr>
+      <td>wlo</td>
+      <td>Mic location</td>
+      <td>Fully obstructed - wall</td>
     </tr>
     <tr>
       <td>impulse</td>
-      <td>Room response</td>
-      <td>Two seconds with transient sound in middle</td>
+      <td>Signal</td>
+      <td>Two seconds with transient sound in middle, for room response</td>
     </tr>
     <tr>
       <td>swoop</td>
-      <td>Room response</td>
-      <td>Rising tone for 20 seconds</td>
+      <td>Signal</td>
+      <td>Rising tone for 20 seconds, for room response</td>
     </tr>
     <tr>
       <td>tone</td>
-      <td>Room response</td>
-      <td>Steady tone for 15 seconds</td>
+      <td>signal</td>
+      <td>Steady tone for 15 seconds, for room response</td>
     </tr>
   </tbody>
 </table>
 
+<hr />
+<p>Microphone identification numbers are unique to a specific microphone location and type, defined below.</p>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mic_ID</th>
+      <th>Location</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>01</td>
+      <td>clo</td>
+      <td>stu</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>clo</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>mid</td>
+      <td>stu</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>mid</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>far</td>
+      <td>stu</td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>far</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>beh</td>
+      <td>stu</td>
+    </tr>
+    <tr>
+      <td>08</td>
+      <td>beh</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>09</td>
+      <td>tbo</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>cec</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>ceo</td>
+      <td>lav</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>wlo</td>
+      <td>lav</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Audio files to characterize the room response are also available:</p>
+<blockquote>
+  <p>Lab41-SRI-VOiCES-&lt; room &gt;-&lt; signal &gt;-mc&lt; mic_ID &gt;-&lt; mic_type &gt;-&lt; mic_location &gt;.wav</p>
+</blockquote>
+
+<p>As are recordings of distactor noise only or ambient room background only:</p>
+<blockquote>
+  <p>Lab41-SRI-VOiCES-&lt; distractor_noise &gt;-mc&lt; mic_ID &gt;-&lt; mic_type &gt;-&lt; mic_location &gt;.wav</p>
+</blockquote>
+
 <h2 id="blog-posts">Blog Posts</h2>
 
 <ul>
-  <li>Maria’s Blog Post</li>
+  <li>Introducing the Voices Obscured in Complex Environmental Settings (VOiCES) corpus</li>
 </ul>
 
 <h2 id="publications">Publications</h2>
 
 <ul>
-  <li>Interspeech (ArXiv)</li>
-  <li>Abstract for ASA</li>
-  <li>Poster for ASA ?</li>
-  <li>Jeff’s Paper (ArXiv)</li>
-  <li>Cory’s Paper</li>
-  <li>Any references from SRI ?</li>
+  <li><a href="https://arxiv.org/submit/2227720/view">Corpus Description and Collection Methodology</a></li>
+  <li>Abstract for ASA – Coming Soon</li>
+  <li>Poster for ASA – Coming Soon</li>
 </ul>
 
 
@@ -352,7 +472,7 @@ applyToggle('.list--nav', '.button', 640)
     </a>
   
     
-    <a href="https://voices18.github.io">
+    <a href="https://lab41.org/datasets">
       <svg width="16" height="16" class="icon  icon--link" role="img" alt="link"><title>link</title><use xlink:href="#link" fill="CurrentColor"></use></svg>
 
     </a>
