@@ -10,6 +10,15 @@ aside: True
 
 ## Dataset Description
 
+The Voices Obscured in Complex Environmental settings (VOiCES) corpus presents audio 
+recorded in acoustically challenging conditions. Recordings took place in real rooms of 
+various sizes, capturing different background and reverberation profiles for each 
+room. Various types of distractor noise (TV, music, or babble) were simultaneously 
+played with clean speech. Audio was recorded at a distance using twelve microphones 
+strategically placed throughout the room. To imitate human behavior during conversation, 
+the foreground speaker used a motorized platform to rotated over a range of angles during recordings. 
+
+
 ### Data format
 
 Audio files will be available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:
