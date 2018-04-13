@@ -25,7 +25,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT 
 ### Maria Alejadnra Barrios
 
 <img align="right" width="300" src="/images/maria_barrios.jpg">
-Dr. Maria Alejandra Barrios is a data scientist at Lab41, In-Q-Tel. Her research interests include deep learning techniques for signal deconvolution, image processing, and computer vision. Maria received a PhD. in plasma physics from University of Rochester in 2010. Prior to joining Lab41 she was a staff scientist at Lawrence Livermore National Laboratory, working on fusion experiments driven by high power lasers.
+Dr. Maria Alejandra Barrios is a data scientist at Lab41, In-Q-Tel. Her research
+interests include deep learning implementations for audio signal processing,
+time-series analysis, image processing, and computer vision. Dr. Barrios received
+her PhD. in plasma physics from University of Rochester in 2010. Prior to joining
+Lab41 Dr. Barrios was a staff scientist at Lawrence Livermore National Laboratory, working
+on laser-driven fusion experiments at the NIF laser facility.
+
+
 
 ### Aaron Lawson
 
