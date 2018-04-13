@@ -12,14 +12,14 @@ aside: True
 
 ### Data format
 
-Audio files will be available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. Sample naming format:
+Audio files will be available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:
 > Lab41-SRI-VOiCES-scr-sp< speaker_ID >-ch< chapter_ID >-sg< segmetn_ID >.wav
 
-Naming convention for audio at a distance include all the above information, with addition of descriptors on room, distractor noise, microphone type, microphone location, and position of foreground speaker in degrees. Sample file format:
+Naming convention for audio at a distance include all the above information, with additional descriptors for room, distractor noise, microphone type, microphone location, and position of foreground speaker in degrees. The file naming format is shown below:
 > Lab41-SRI-VOiCES-< room >-< distractor_noise >-sp< speaker_ID >-ch< chapter_ID >-seg< segment_ID >-mc< mic_ID >-< mic_type >-< mic_location >-dg< degree >.wav
 
 ---
-Possible descriptors for room, distractor noise, microphone type and micrphone location, are listed below:
+Possible descriptors for room, distractor noise, microphone type, and micrphone location, are show in the table.
 
 <style>
 table, th, td {
@@ -55,7 +55,7 @@ th, td {
 
 
 ---
-Microphone identification numbers are unique to a specific microphone location and typeas described below:
+Microphone identification numbers are unique to a specific microphone location and type, defined below.
 
 
 <style>
@@ -84,7 +84,7 @@ th, td {
 
 ---
 
-Audio files to characterize the room response are available:
+Audio files to characterize the room response are also available:
 > Lab41-SRI-VOiCES-< room >-< signal >-mc< mic_ID >-< mic_type >-< mic_location >.wav
 
 As are recordings of distactor noise only or ambient room background only:
