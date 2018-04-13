@@ -96,10 +96,7 @@ As are recordings of distactor noise only or ambient room background only:
 
 ## Publications
 
-- Interspeech (ArXiv)
-- Abstract for ASA
-- Poster for ASA ?
-- Jeff's Paper (ArXiv)
-- Cory's Paper
-- Any references from SRI ?
+- [Corpus Description and Collection Methodology](https://arxiv.org/submit/2227720/view)
+- Abstract for ASA -- Coming Soon
+- Poster for ASA -- Coming Soon
 
