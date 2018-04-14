@@ -16,7 +16,7 @@ various sizes, capturing different background and reverberation profiles for eac
 room. Various types of distractor noise (TV, music, or babble) were simultaneously 
 played with clean speech. Audio was recorded at a distance using twelve microphones 
 strategically placed throughout the room. To imitate human behavior during conversation, 
-the foreground speaker used a motorized platform to rotated over a range of angles during recordings. 
+the foreground speaker used a motorized platform, rotating over a range of angles during recordings. 
 
 
 ### Data format
