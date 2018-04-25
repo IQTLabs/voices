@@ -105,7 +105,7 @@ As are recordings of distactor noise only or ambient room background only:
 
 ## Publications
 
-- [Corpus Description and Collection Methodology](https://arxiv.org/submit/2227720/view)
+- [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
 - Abstract for ASA -- Coming Soon
 - Poster for ASA -- Coming Soon
 
