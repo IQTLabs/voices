@@ -18,6 +18,7 @@ played with clean speech. Audio was recorded at a distance using twelve micropho
 strategically placed throughout the room. To imitate human behavior during conversation, 
 the foreground speaker used a motorized platform, rotating over a range of angles during recordings. 
 
+In addition to the full dataset, we also provide a mini-dev dataset. This dev set is a subset of the VOiCES full corpus. It maintains the data structure, but only includes audio files for four randomly selected speakers (50-50 female-male split) for data recorded in Room-1. 
 
 ### Data format
 
@@ -57,7 +58,7 @@ th, td {
 | cec              | Mic location       | Overhead on ceiling, clear                                                 |
 | ceo              | Mic location       | Overhead on ceiling, fully obstructed                                      |
 | tbo              | Mic location       | Partially obstructed - table                                               |
-| wlo              | Mic location       | Fully obstructed - wall                                                    |
+| wal              | Mic location       | Fully obstructed - wall                                                    |
 | impulse          | Signal             | Two seconds with transient sound in middle, for room response              |
 | swoop            | Signal             | Rising tone for 20 seconds, for room response                              |
 | tone             | signal             | Steady tone for 15 seconds, for room response                              |
