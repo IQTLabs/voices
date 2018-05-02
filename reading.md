@@ -10,26 +10,44 @@ aside: True
 
 ## Dataset Description
 
-The Voices Obscured in Complex Environmental settings (VOiCES) corpus presents audio 
-recorded in acoustically challenging conditions. Recordings took place in real rooms of 
-various sizes, capturing different background and reverberation profiles for each 
-room. Various types of distractor noise (TV, music, or babble) were simultaneously 
-played with clean speech. Audio was recorded at a distance using twelve microphones 
-strategically placed throughout the room. To imitate human behavior during conversation, 
-the foreground speaker used a motorized platform, rotating over a range of angles during recordings. 
+The Voices Obscured in Complex Environmental settings (VOiCES) corpus presents audio
+recorded in acoustically challenging conditions. Recordings took place in real rooms of
+various sizes, capturing different background and reverberation profiles for each
+room. Various types of distractor noise (TV, music, or babble) were simultaneously
+played with clean speech. Audio was recorded at a distance using twelve microphones
+strategically placed throughout the room. To imitate human behavior during conversation,
+the foreground speaker used a motorized platform, rotating over a range of angles during recordings.
 
-In addition to the full dataset, we also provide a mini-dev dataset. This dev set is a subset of the VOiCES full corpus. It maintains the data structure, but only includes audio files for four randomly selected speakers (50-50 female-male split) for data recorded in Room-1. 
+Three hundred distinct speakers from LibriSpeech's "clean" data subset were selected as the source audio, ensuring a 50-50 female-male split. In preparation for
+upcoming data challenges, the first release of the VOiCES corpus will include 200 speakers only. The remaining 100 speakers will be reserved for model validation; the full corpus
+(300 speakers) will be released once the data challenge is closed.  
+
+In addition to the full dataset, we also provide a dev set and a mini-dev set. Both maintain the data structure of the VOiCES corpus, but include a small subset of data. The dev set includes audio files for four randomly selected speakers (50-50 female-male split) for data recorded in Room-1. This includes data from all twelve microphones. The mini-dev set includes one speaker, one room (Room-1), and studio microphones only.
+
+### Source audio references
+
+Source audio references, per LibriSpeech, are provided in three different tables as follows:  
+
+Information on the speaker ID, book ID, and chapter ID
+> Lab41-SRI-VOiCES-speaker-book-chapter.tbl
+
+Speaker ID, gender, and LibriSpeech data subset
+> Lab41-SRI-VOiCES-speaker-gender-dataset.tbl
+
+Orthographic transcription of all audio files
+> Lab41-SRI-VOiCES.refs
+
 
 ### Data format
 
-Audio files will be available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:
-> Lab41-SRI-VOiCES-scr-sp< speaker_ID >-ch< chapter_ID >-sg< segmetn_ID >.wav
+Audio files are available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:
+> Lab41-SRI-VOiCES-scr-sp< speaker_ID >-ch< chapter_ID >-sg< segment_ID >.wav
 
 Naming convention for audio at a distance include all the above information, with additional descriptors for room, distractor noise, microphone type, microphone location, and position of foreground speaker in degrees. The file naming format is shown below:
 > Lab41-SRI-VOiCES-< room >-< distractor_noise >-sp< speaker_ID >-ch< chapter_ID >-seg< segment_ID >-mc< mic_ID >-< mic_type >-< mic_location >-dg< degree >.wav
 
 ---
-Possible descriptors for room, distractor noise, microphone type, and micrphone location, are show in the table.
+Possible descriptors for room, distractor noise, microphone type, and microphone location, are show in the table.
 
 <style>
 table, th, td {
@@ -90,23 +108,22 @@ th, td {
 | 09     | tbo       | lav   |
 | 10     | cec       | lav   |
 | 11     | ceo       | lav   |
-| 12     | wlo       | lav   |
+| 12     | wal       | lav   |
 
 ---
 
 Audio files to characterize the room response are also available:
 > Lab41-SRI-VOiCES-< room >-< signal >-mc< mic_ID >-< mic_type >-< mic_location >.wav
 
-As are recordings of distactor noise only or ambient room background only:
+As are recordings of distractor noise only or ambient room background only:
 > Lab41-SRI-VOiCES-< distractor_noise >-mc< mic_ID >-< mic_type >-< mic_location >.wav
 
 ## Blog Posts
 
-- Introducing the Voices Obscured in Complex Environmental Settings (VOiCES) corpus
+- [Introducing the Voices Obscured in Complex Environmental Settings (VOiCES) corpus](https://gab41.lab41.org/introducing-the-voices-obscured-in-complex-environmental-settings-voices-corpus-b7990d080176)
 
 ## Publications
 
 - [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
 - Abstract for ASA -- Coming Soon
 - Poster for ASA -- Coming Soon
-
