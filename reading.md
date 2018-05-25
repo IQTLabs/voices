@@ -125,5 +125,5 @@ As are recordings of distractor noise only or ambient room background only:
 ## Publications
 
 - [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
-- Abstract for ASA -- Coming Soon
-- Poster for ASA -- Coming Soon
+- [175th Meeting of the Acoustical Society of America](https://voices18.github.io/general/2018/05/07/asa-2018/)
+
