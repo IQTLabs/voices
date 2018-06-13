@@ -9,9 +9,9 @@ aside: True
 ---
 
 ### Utilities
-How to use the VOiCES set? Here's an [example]( 
+- How to use the VOiCES set? Here's an [example]( 
 https://github.com/voices18/utilities/blob/master/Using%20VOiCES%20corpus%20tutorial.ipynb)
-Do you have an issue? Tell us about it [here](https://github.com/voices18/utilities/issues).
+- Do you have an issue? Tell us about it [here](https://github.com/voices18/utilities/issues).
 
 ### Competitions
 - Coming Soon!
