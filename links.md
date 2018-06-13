@@ -1,12 +1,17 @@
 ---
 title: Description
 feature_text: |
-  ## Links to Competitions and Sponsors
+  ## Links to Resources, Competitions, and Sponsors
   Voices Obscured in Complex Environmental Scenarios
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Links and Contacts"
 aside: True
 ---
+
+### Utilities
+How to use the VOiCES set? Here's an [example]( 
+https://github.com/voices18/utilities/blob/master/Using%20VOiCES%20corpus%20tutorial.ipynb)
+Do you have an issue? Tell us about it [here](https://github.com/voices18/utilities/issues).
 
 ### Competitions
 - Coming Soon!
