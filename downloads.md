@@ -8,7 +8,6 @@ excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
 
-### Stay Tuned, Coming Soon
+### Main Dataset Download
 
-We are in the midst of uploading all of our files onto Amazon Web Services. We will post an announcement once
-it is up and ready to go!
+You can download the main dataset for training and development from our [AWS bucket](https://registry.opendata.aws/lab41-sri-voices/)
