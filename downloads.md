@@ -10,7 +10,8 @@ aside: True
 
 ### Main Dataset Download
 
-You can download the main dataset for training and development from our [AWS bucket](https://registry.opendata.aws/lab41-sri-voices/)
+VOiCES is now publically available on AWS. Check out the [AWS Registry of Open Data ](https://registry.opendata.aws/lab41-sri-voices/) for details.
 
+To download the data
 
 
