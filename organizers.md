@@ -60,7 +60,7 @@ University of Buenos Aires, Argentina.
 ### Jeff Hetherly
 
 <img align="right" width="300" src="/images/jeff_hetherly.jpg">
-Dr. Jeff Hetherly Dr. Jeff Hetherly is a data scientist at In-Q-Tel’s Lab41. His background is in scientific statistical analysis, methods for dimensionality reduction, and machine learning. Dr. Hetherly received his Ph.D. in experimental particle physics from Southern Methodist University where he spent two years located at CERN analyzing data for the ATLAS experiment.
+Dr. Jeff Hetherly Dr. Jeff Hetherly is a data scientist at NVIDIA. His background is in scientific statistical analysis, methods for dimensionality reduction, and machine learning. Dr. Hetherly received his Ph.D. in experimental particle physics from Southern Methodist University where he spent two years located at CERN analyzing data for the ATLAS experiment.
 
 ### Aaron Lawson
 
@@ -98,5 +98,5 @@ the University of Texas at Dallas.
 ### Cory Stephenson
 
 <img align="right" width="300" src="/images/cory_stephenson.jpg">
-Dr. Cory Stephenson is a data scientist at Lab41, In-Q-Tel.  His background is in complex systems and non-equilibrium thermodynamics.  His most recent work is in the application of machine learning and deep learning methods to audio signal processing. Dr. Stephenson received his Ph.D. from the University of Illinois at Urbana-Champaign.
+Dr. Cory Stephenson is a data scientist at Nervana, InTel.  His background is in complex systems and non-equilibrium thermodynamics.  His most recent work is in the application of machine learning and deep learning methods to audio signal processing. Dr. Stephenson received his Ph.D. from the University of Illinois at Urbana-Champaign.
 

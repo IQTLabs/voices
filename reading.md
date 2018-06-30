@@ -24,7 +24,7 @@ upcoming data challenges, the first release of the VOiCES corpus will include 20
 
 In addition to the full dataset, we also provide a dev set and a mini-dev set. Both maintain the data structure of the VOiCES corpus, but include a small subset of data. The dev set includes audio files for four randomly selected speakers (50-50 female-male split) for data recorded in Room-1. This includes data from all twelve microphones. The mini-dev set includes one speaker, one room (Room-1), and studio microphones only.
 
-## README
+## Readme
 
 For more details about how to use the dataset, please see our [readme](Lab41-SRI-VOiCES_README.md).
 

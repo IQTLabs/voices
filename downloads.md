@@ -19,12 +19,12 @@ To download VOiCES audio corpus, install the
 [Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) the AWS CLI by typing `aws configure` in the command line. 
 
 To list the content of the s3 bucket associated with VOiCES, run 
-`aws s3 ls s3://lab41openaudiocorpus`
+```aws s3 ls s3://lab41openaudiocorpus```
 
 Download data using 
-`aws s3 sync <source> <target> [--options]` 
+```aws s3 sync <source> <target> [--options]```
 or 
-`aws s3 cp <source> <target> [--option]`
+```aws s3 cp <source> <target> [--option]```
 
 
 
