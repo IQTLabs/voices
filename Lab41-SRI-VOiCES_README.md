@@ -1,4 +1,4 @@
-## Dataset Description
+### Dataset Description
 
 The Voices Obscured in Complex Environmental settings (VOiCES) corpus is a collaboration between
 SRI International and Lab41, In-Q-Tel, presenting audio
@@ -19,7 +19,7 @@ The VOiCES corpus provides audio data that better represent real-use scenarios. 
 event detection, background detection, source separation, speech enhancement, sound localization, as well as research on speaker
 recognition, and speech activity detection.    
 
-### Source audio references
+#### Source audio references
 
 Source audio references, per LibriSpeech, are provided in three different tables as follows:  
 
@@ -33,7 +33,7 @@ Orthographic transcription of all audio files
 > Lab41-SRI-VOiCES.refs
 
 
-### Data format
+#### Data format
 
 Audio files are available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source audio files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:
 > Lab41-SRI-VOiCES-src-sp< speaker_ID >-ch< chapter_ID >-sg< segment_ID >.wav
@@ -91,10 +91,10 @@ the source audio are organized in subdirectories by speaker ID. The **distant-16
 speaker ID in each subfolder.  
 
 The directory hierarchy is shown below :
-<img align="left" width="300" src="VOiCES_directory_structure.png">
+<img align="left" width="300" src="../images/VOiCES_directory_structure.png">
 
 ---
-### Microphone Details
+#### Microphone Details
 
 Microphone identification numbers are unique to a specific microphone location and type, defined below.
 
@@ -152,7 +152,7 @@ th, td {
 
 ---
 
-## Licensing
+### Licensing
 
 VOiCES is publicly available released under Creative Commos BY 4.0, free for commercial, academic, and
 government use. Please do reference [VOiCES](https://arxiv.org/abs/1804.05053) if using the data in
