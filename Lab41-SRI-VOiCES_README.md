@@ -48,7 +48,7 @@ As are recordings of distractor noise only or ambient room background only:
 > Lab41-SRI-VOiCES-< distractor_noise >-mc< mic_ID >-< mic_type >-< mic_location >.wav
 
 ---
-Possible descriptors for room, distractor noise, microphone type, and microphone location, are show in the table.
+Possible descriptors for room, distractor noise, microphone type, and microphone location, are show in the table below.
 
 <style>
 table, th, td {
@@ -83,15 +83,14 @@ th, td {
 | tone             | signal             | Steady tone for 15 seconds, for room response                              |  
 
 All the data is contained in two main folders: **distant-16k**, containing all the audio recordings, and **source-16k**, containing
-the audio files used from LibriSpeech, corrected for DC offset and normalized to each file’s peak amplitude. The WAV files for  
-the source audio are organized in subdirectories by speaker ID. The **distant-16k** has three main subdirectories:
+the audio files used from LibriSpeech, corrected for DC offset and normalized to each file’s peak amplitude. The WAV files for the source audio are organized in subdirectories by speaker ID. The **distant-16k** has three main subdirectories:
 - distractors : distractor noise recordings with no foreground audio for all rooms
 - room-response : recorded sound to determine room-response for all rooms
 - speech : for each room, recordings of foreground audio with babble, music, television or no distractor noise, arranged by
 speaker ID in each subfolder.  
 
 The directory hierarchy is shown below :
-<img align="left" width="300" src="/images/VOiCES_directory_structure.png">
+<img align="center" width="300" src="/images/VOiCES_directory_structure.png">
 
 ---
 ### Microphone Details

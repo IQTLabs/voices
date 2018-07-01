@@ -26,7 +26,7 @@ In addition to the full dataset, we also provide a dev set and a mini-dev set. B
 
 ## Readme
 
-For more details about how to use the dataset, please see our [readme](Lab41-SRI-VOiCES_README.md).
+For more details about how to use the dataset, please see our [README](Lab41-SRI-VOiCES_README.md).
 
 ## Blog Posts
 
@@ -36,4 +36,3 @@ For more details about how to use the dataset, please see our [readme](Lab41-SRI
 
 - [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
 - [175th Meeting of the Acoustical Society of America](https://voices18.github.io/general/2018/05/07/asa-2018/)
-
