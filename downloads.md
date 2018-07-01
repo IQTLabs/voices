@@ -11,7 +11,7 @@ aside: True
 ## Dataset Download
 
 VOiCES is now publicly available on AWS. Check out the [AWS Registry of Open Data](https://registry.opendata.aws/lab41-sri-voices/) for details. Data structure
-and microphone specifics are available in [README](Lab41-SRI-VOiCES_README.md) file.  
+and microphone specifics are available in our [README](Lab41-SRI-VOiCES_README.md) file.  
 
 ### Dependencies
 

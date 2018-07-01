@@ -99,7 +99,9 @@ speaker ID in each subfolder.
 The directory hierarchy is shown below :  
 
 
-<img align="center" width="300" src="/images/VOiCES_directory_structure.png">
+<p align="center">
+  <img width="460" src="/images/VOiCES_directory_structure.png">
+</p>
 
 ---
 ### Microphone Details
