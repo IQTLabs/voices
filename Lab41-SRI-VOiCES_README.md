@@ -1,3 +1,7 @@
+---
+aside: False
+---
+
 ## Dataset Description
 
 The Voices Obscured in Complex Environmental settings (VOiCES) corpus is a collaboration between
@@ -83,6 +87,7 @@ th, td {
 | tone             | signal             | Steady tone for 15 seconds, for room response                              |  
 
 
+
 All the data is contained in two main folders: **distant-16k**, containing all the audio recordings, and **source-16k**, containing
 the audio files used from LibriSpeech, corrected for DC offset and normalized to each file’s peak amplitude. The WAV files for the source audio are organized in subdirectories by speaker ID. The **distant-16k** has three main subdirectories:
 - distractors : distractor noise recordings with no foreground audio for all rooms
@@ -92,6 +97,8 @@ speaker ID in each subfolder.
 
 
 The directory hierarchy is shown below :  
+
+
 <img align="center" width="300" src="/images/VOiCES_directory_structure.png">
 
 ---
@@ -122,6 +129,7 @@ th, td {
 | 10     | cec       | AKG 417L   | lav   |
 | 11     | ceo       | AKG 417L   | lav   |
 | 12     | wal       | SHURE SM11 | lav   |  
+
 
 
 Distance (inches) between microphones and loudspeakers or floor, for Room-1 and Room-2 recordings.
