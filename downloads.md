@@ -10,23 +10,19 @@ aside: True
 
 ## Dataset Download
 
-VOiCES is now publically available on AWS. Check out the [AWS Registry of Open Data](https://registry.opendata.aws/lab41-sri-voices/) for details.
+VOiCES is now publicly available on AWS. Check out the [AWS Registry of Open Data](https://registry.opendata.aws/lab41-sri-voices/) for details. Data structure
+and microphone specifics are available in [readme](Lab41-SRI-VOiCES_README.md) file.  
 
 ### Dependencies
 
 To download VOiCES audio corpus, install the 
-[AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) and link to an active AWS account. 
-[Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) the AWS CLI by typing `aws configure` in the command line. 
+[AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) and link to an active AWS account.
+[Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) the AWS CLI by typing `aws configure` in the command line.
 
-To list the content of the s3 bucket associated with VOiCES, run 
+To list the content of the s3 bucket associated with VOiCES, run
 ```aws s3 ls s3://lab41openaudiocorpus```
 
-Download data using 
+Download data using
 ```aws s3 sync <source> <target> [--options]```
-or 
+or
 ```aws s3 cp <source> <target> [--option]```
-
-
-
-
-
