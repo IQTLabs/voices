@@ -132,6 +132,7 @@ th, td {
 <br>
 Distance (inches) between microphones and loudspeakers or floor, for Room-1 and Room-2 recordings.
 
+
 <style>
 table, th, td {
     border: 1px solid black;
@@ -141,17 +142,7 @@ th, td {
 }
 </style>
 |        | Foreground  | Distractor 1 | Distractor 2 | Distractor 3 |     Floor   
-
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-th, td {
-    padding: 5px;
-}
-</style>
-
-|        | Foreground  || Distractor 1 || Distractor 2 || Distractor 3 ||     Floor   
+* * *
 | Mic_ID | rm-1 | rm2  | rm-1 | rm2   | rm-1 | rm2   | rm-1 | rm2   | rm-1 | rm2   |
 |--------|-------------|--------------|--------------|--------------|--------------|
 | 01     | 38   | 80   | 71   | 112   | 71   | 84    |   53 | 64    | 42   | 39    |
