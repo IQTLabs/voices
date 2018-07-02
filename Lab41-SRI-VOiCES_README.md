@@ -150,11 +150,11 @@ th, td {
 <table style="width:110%">
   <tr>
     <th> </th>
-    <th colspan="2" style="font-size:115%;"> <b>Foreground</b> </th>
-    <th colspan="2" style="font-size:115%;"> <b>Distractor 1</b> </th>
-    <th colspan="2" style="font-size:115%;"> <b>Distractor 2</b> </th>
-    <th colspan="2" style="font-size:115%;"> <b>Distractor 3</b></th>
-    <th colspan="2" style="font-size:115%;" style="text-align:center;"> <b>Floor</b> </th>    
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Foreground</b> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Distractor 1</b> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Distractor 2</b> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Distractor 3</b></th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Floor</b> </th>    
   </tr>
   <tr>
     <td><b>Mic_ID</b></td>
