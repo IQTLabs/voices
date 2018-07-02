@@ -59,7 +59,7 @@ th, td {
 }
 </style>
 
-| File Code        | Type               | Definition                                                            
+| **File Code**    | **Type**           | **Definition**                                                            
 |------------------|--------------------|-------------------------------------------------------|
 | rm1              | Room | Room-1: dimensions 146” x 107” (x 107” height)                             |
 | rm2              | Room | Room-2: dimensions 225” x 158” (x 109” height)                             |
@@ -148,15 +148,29 @@ th, td {
 </head>
 <body>
 
-<h2>Table Caption</h2>
-<p>To add a caption to a table, use the caption tag.</p>
-
 <table style="width:100%">
-  <caption>Monthly savings</caption>
   <tr>
-    <th>Month</th>
-    <th>Savings</th>
+    <th> </th>
+    <th colspan="2">Foreground</th>
+    <th colspan="2">Distractor 1</th>
+    <th colspan="2">Distractor 2</th>
+    <th colspan="2">Distractor 3</th>
+    <th colspan="2">Floor</th>    
   </tr>
+  <tr>
+    <td>Mic_ID</td>
+    <td>rm-1</td>
+    <td>rm-2</td>
+    <td>rm-1</td>
+    <td>rm-2</td>
+    <td>rm-1</td>
+    <td>rm-2</td>
+    <td>rm-1</td>
+    <td>rm-2</td>
+    <td>rm-1</td>
+    <td>rm-2</td>
+  </tr>
+  <tr>
   <tr>
     <td>January</td>
     <td>$100</td>
