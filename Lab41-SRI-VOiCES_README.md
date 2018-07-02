@@ -147,27 +147,27 @@ th, td {
 </head>
 <body>
 
-<table style="width:80%">
+<table style="width:75%">
   <tr>
     <th> </th>
-    <th colspan="2" style="font-size:200%;"><b>Foreground</b></th>
-    <th colspan="2">Distractor 1</th>
-    <th colspan="2">Distractor 2</th>
-    <th colspan="2">Distractor 3</th>
-    <th colspan="2">Floor</th>    
+    <th colspan="2" style="font-size:110%;"> <b>Foreground</b> </th>
+    <th colspan="2" style="font-size:110%;"> <b>Distractor 1</b> </th>
+    <th colspan="2" style="font-size:110%;"> <b>Distractor 2</b> </th>
+    <th colspan="2" style="font-size:110%;"> <b>Distractor 3</b></th>
+    <th colspan="2"style="font-size:110%;"> <b>Floor</b> </th>    
   </tr>
   <tr>
-    <td>Mic_ID</td>
-    <td>**rm-1**</td>
-    <td>**rm-2**</td>
-    <td>**rm-1**</td>
-    <td>**rm-2**</td>
-    <td>**rm-1**</td>
-    <td>**rm-2**</td>
-    <td>**rm-1**</td>
-    <td>**rm-2**</td>
-    <td>**rm-1**</td>
-    <td>**rm-2**</td>
+    <td><b>Mic_ID</b></td>
+    <td><b>rm-1</b></td>
+    <td><b>rm-2</b></td>
+    <td><b>rm-1</b></td>
+    <td><b>rm-2</b></td>
+    <td><b>rm-1</b></td>
+    <td><b>rm-2</b></td>
+    <td><b>rm-1</b></td>
+    <td><b>rm-2</b></td>
+    <td><b>rm-1</b></td>
+    <td><b>rm-2</b></td>
   </tr>
   <tr>
     <td> 01 </td>
