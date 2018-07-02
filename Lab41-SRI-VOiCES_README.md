@@ -113,7 +113,7 @@ th, td {
 }
 </style>
 
-| Mic_ID | Location  | Model      | Type
+| **Mic_ID** | **Location**  | **Model**      | **Type**
 |--------|-----------|------------|-------|
 | 01     | clo       | SHURE SM58 | stu   |
 | 02     | clo       | AKG 417L   | lav   |
@@ -131,7 +131,6 @@ th, td {
 
 <br>
 Distance (inches) between microphones and loudspeakers or floor, for Room-1 and Room-2 recordings.
-
 
 <html>
 <head>
@@ -171,9 +170,17 @@ th, td {
     <td>rm-2</td>
   </tr>
   <tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
+    <td> 01 </td>
+    <td> 38 </td>
+    <td> 80 </td>
+    <td>71 </td>
+    <td>112</td>
+    <td><71/td>
+    <td>84</td>
+    <td>53</td>
+    <td>64</td>
+    <td>42</td>
+    <td>39 </td>  
   </tr>
   <tr>
     <td>February</td>
@@ -193,7 +200,6 @@ th, td {
 }
 </style>
 |        | Foreground  | Distractor 1 | Distractor 2 | Distractor 3 |     Floor   
---------
 | Mic_ID | rm-1 | rm2  | rm-1 | rm2   | rm-1 | rm2   | rm-1 | rm2   | rm-1 | rm2   |
 |--------|-------------|--------------|--------------|--------------|--------------|
 | 01     | 38   | 80   | 71   | 112   | 71   | 84    |   53 | 64    | 42   | 39    |
