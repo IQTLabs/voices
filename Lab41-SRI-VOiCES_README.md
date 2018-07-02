@@ -147,10 +147,10 @@ th, td {
 </head>
 <body>
 
-<table style="width:100%">
+<table style="width:95%">
   <tr>
     <th> </th>
-    <th colspan="2">**Foreground</th>
+    <th colspan="2">Foreground</th>
     <th colspan="2">Distractor 1</th>
     <th colspan="2">Distractor 2</th>
     <th colspan="2">Distractor 3</th>
