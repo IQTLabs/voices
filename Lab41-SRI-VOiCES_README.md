@@ -150,7 +150,7 @@ th, td {
 <table style="width:100%">
   <tr>
     <th> </th>
-    <th colspan="2">Foreground</th>
+    <th colspan="2">**Foreground</th>
     <th colspan="2">Distractor 1</th>
     <th colspan="2">Distractor 2</th>
     <th colspan="2">Distractor 3</th>
@@ -158,33 +158,172 @@ th, td {
   </tr>
   <tr>
     <td>Mic_ID</td>
-    <td>rm-1</td>
-    <td>rm-2</td>
-    <td>rm-1</td>
-    <td>rm-2</td>
-    <td>rm-1</td>
-    <td>rm-2</td>
-    <td>rm-1</td>
-    <td>rm-2</td>
-    <td>rm-1</td>
-    <td>rm-2</td>
+    <td>**rm-1**</td>
+    <td>**rm-2**</td>
+    <td>**rm-1**</td>
+    <td>**rm-2**</td>
+    <td>**rm-1**</td>
+    <td>**rm-2**</td>
+    <td>**rm-1**</td>
+    <td>**rm-2**</td>
+    <td>**rm-1**</td>
+    <td>**rm-2**</td>
   </tr>
   <tr>
     <td> 01 </td>
     <td> 38 </td>
     <td> 80 </td>
-    <td>71 </td>
-    <td>112</td>
-    <td><71/td>
-    <td>84</td>
-    <td>53</td>
-    <td>64</td>
-    <td>42</td>
-    <td>39 </td>  
+    <td> 71 </td>
+    <td> 112 </td>
+    <td> 71 </td>
+    <td> 84 </td>
+    <td> 53 </td>
+    <td> 64 </td>
+    <td> 42 </td>
+    <td> 39 </td>  
   </tr>
   <tr>
-    <td>February</td>
-    <td>$50</td>
+    <td> 02  </td>
+    <td> 38 </td>
+    <td> 80  </td>
+    <td> 71 </td>
+    <td> 112 </td>
+    <td> 71 </td>
+    <td> 84 </td>
+    <td> 53  </td>
+    <td> 64  </td>
+    <td> 42 </td>
+    <td> 39 </td>  
+  </tr>
+  <tr>
+    <td> 03 </td>
+    <td> 72 </td>
+    <td> 131 </td>
+    <td> 35 </td>
+    <td> 81  </td>
+    <td> 56 </td>
+    <td> 58  </td>
+    <td> 52 </td>
+    <td> 95  </td>
+    <td> 42  </td>
+    <td> 39  </td>  
+  </tr>
+  <tr>
+    <td> 04 </td>
+    <td> 72  </td>
+    <td> 131 </td>
+    <td> 35 </td>
+    <td> 81  </td>
+    <td> 56 </td>
+    <td> 58  </td>
+    <td> 52 </td>
+    <td> 95  </td>
+    <td> 42  </td>
+    <td> 39  </td>  
+  </tr>
+  <tr>
+    <td> 05  </td>
+    <td> 119 </td>
+    <td> 228 </td>
+    <td> 72 </td>
+    <td> 101 </td>
+    <td> 33 </td>
+    <td> 104 </td>
+    <td> 83 </td>
+    <td> 186 </td>
+    <td> 70 </td>
+    <td> 70 </td>  
+  </tr>
+  <tr>
+    <td> 06 </td>
+    <td> 119 </td>
+    <td> 228 </td>
+    <td> 72 </td>
+    <td> 101 </td>
+    <td> 33 </td>
+    <td> 104 </td>
+    <td> 83 </td>
+    <td> 186 </td>
+    <td> 70 </td>
+    <td> 70 </td>  
+  </tr>
+  <tr>
+    <td> 07 </td>
+    <td> 29 </td>
+    <td> 29 </td>
+    <td> 115 </td>
+    <td> 193 </td>
+    <td> 133 </td>
+    <td> 170 </td>
+    <td> 94 </td>
+    <td> 94  </td>
+    <td> 70  </td>
+    <td> 70 </td>  
+  </tr>
+  <tr>
+    <td> 08 </td>
+    <td> 29 </td>
+    <td> 29 </td>
+    <td> 115 </td>
+    <td> 193 </td>
+    <td> 133 </td>
+    <td> 170 </td>
+    <td> 94 </td>
+    <td> 94 </td>
+    <td> 70 </td>
+    <td> 70 </td>  
+  </tr>
+  <tr>
+    <td> 09 </td>
+    <td> 58 </td>
+    <td> 109 </td>
+    <td> 64 </td>
+    <td> 98 </td>
+    <td> 60 </td>
+    <td> 65 </td>
+    <td> 49 </td>
+    <td> 82 </td>
+    <td> 28 </td>
+    <td> 25 </td>  
+  </tr>
+  <tr>
+    <td> 10 </td>
+    <td> 75 </td>
+    <td> 128 </td>
+    <td> 90 </td>
+    <td> 107 </td>
+    <td> 108 </td>
+    <td> 103 </td>
+    <td> 106 </td>
+    <td> 104 </td>
+    <td> 105 </td>
+    <td> 105 </td>  
+  </tr>
+  <tr>
+    <td> 11 </td>
+    <td> 75 </td>
+    <td> 128 </td>
+    <td> 90 </td>
+    <td> 107 </td>
+    <td> 108 </td>
+    <td> 103 </td>
+    <td> 106 </td>
+    <td> 104 </td>
+    <td> 106 </td>
+    <td> 106 </td>  
+  </tr>
+  <tr>
+    <td> 12 </td>
+    <td> 130 </td>
+    <td> 116 </td>
+    <td> 861 </td>
+    <td> 116 </td>
+    <td> 40 </td>
+    <td> 115 </td>
+    <td> 81 </td>
+    <td> 164 </td>
+    <td> 12 </td>
+    <td> 10 </td>  
   </tr>
 </table>
 
