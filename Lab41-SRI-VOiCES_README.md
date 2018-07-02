@@ -1,7 +1,3 @@
----
-aside: False
----
-
 ## Dataset Description
 
 The Voices Obscured in Complex Environmental settings (VOiCES) corpus is a collaboration between
@@ -135,6 +131,16 @@ th, td {
 
 <br>
 Distance (inches) between microphones and loudspeakers or floor, for Room-1 and Room-2 recordings.
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+|        | Foreground  | Distractor 1 | Distractor 2 | Distractor 3 |     Floor   
 
 <style>
 table, th, td {
