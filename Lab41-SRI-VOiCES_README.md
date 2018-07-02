@@ -86,7 +86,7 @@ th, td {
 | swoop            | Signal             | Rising tone for 20 seconds, for room response                              |
 | tone             | signal             | Steady tone for 15 seconds, for room response                              |  
 
-
+<br>
 
 All the data is contained in two main folders: **distant-16k**, containing all the audio recordings, and **source-16k**, containing
 the audio files used from LibriSpeech, corrected for DC offset and normalized to each file’s peak amplitude. The WAV files for the source audio are organized in subdirectories by speaker ID. The **distant-16k** has three main subdirectories:
@@ -100,7 +100,7 @@ The directory hierarchy is shown below :
 
 
 <p align="center">
-  <img width="460" src="/images/VOiCES_directory_structure.png">
+  <img width="350" src="/images/VOiCES_directory_structure.png">
 </p>
 
 ---
@@ -133,7 +133,7 @@ th, td {
 | 12     | wal       | SHURE SM11 | lav   |  
 
 
-
+<br>
 Distance (inches) between microphones and loudspeakers or floor, for Room-1 and Room-2 recordings.
 
 <style>
