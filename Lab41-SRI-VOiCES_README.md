@@ -147,14 +147,14 @@ th, td {
 </head>
 <body>
 
-<table style="width:95%">
+<table style="width:100%">
   <tr>
     <th> </th>
-    <th colspan="2" style="font-size:120%;"> <b>Foreground</b> </th>
-    <th colspan="2" style="font-size:120%;"> <b>Distractor 1</b> </th>
-    <th colspan="2" style="font-size:120%;"> <b>Distractor 2</b> </th>
-    <th colspan="2" style="font-size:120%;"> <b>Distractor 3</b></th>
-    <th colspan="2" style="font-size:120%;"> <b>Floor</b> </th>    
+    <th colspan="2" style="font-size:115%;"> <b>Foreground</b> </th>
+    <th colspan="2" style="font-size:115%;"> <b>Distractor 1</b> </th>
+    <th colspan="2" style="font-size:115%;"> <b>Distractor 2</b> </th>
+    <th colspan="2" style="font-size:115%;"> <b>Distractor 3</b></th>
+    <th colspan="2" style="font-size:115%;"> <b>Floor</b> </th>    
   </tr>
   <tr>
     <td><b>Mic_ID</b></td>
