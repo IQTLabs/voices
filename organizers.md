@@ -2,7 +2,7 @@
 title: Organizers
 feature_text: |
   ## Organizers and Contact Information
-  Voices Obscured in Complex Environmental Scenarios
+  Voices Obscured in Complex Environmental Settings
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "A short description of the VOiCES corpus"
 aside: True

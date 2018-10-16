@@ -96,7 +96,7 @@ The directory hierarchy is shown below :
 
 
 <p align="center">
-  <img width="350" src="/images/VOiCES_directory_structure.png">
+  <img width="300" src="/images/VOiCES_directory_structure.png">
 </p>
 
 ---

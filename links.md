@@ -2,7 +2,7 @@
 title: Description
 feature_text: |
   ## Links to Resources, Competitions, and Sponsors
-  Voices Obscured in Complex Environmental Scenarios
+  Voices Obscured in Complex Environmental Settings
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Links and Contacts"
 aside: True
