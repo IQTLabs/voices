@@ -34,5 +34,6 @@ For more details about how to use the dataset, please see our [README](Lab41-SRI
 
 ## Publications
 
+- [Robust Speaker Recognition from Distant Speech Under Real Reverberant Environments](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2221.pdf)
 - [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
 - [175th Meeting of the Acoustical Society of America](https://voices18.github.io/general/2018/05/07/asa-2018/)
