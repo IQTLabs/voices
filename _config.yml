@@ -90,7 +90,7 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 # 8. Site navigation
 navigation_header:
   Home: /
-  Downloads: /downloads/
+  Download: /downloads/
   Events: /blog/
   Reading: /reading/
   Organizers: /organizers/
