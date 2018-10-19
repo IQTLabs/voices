@@ -28,6 +28,6 @@ or
 ```aws s3 cp <source> <target> [--option]```
 
 ### Data Releases
-Early 2018 : room-1 and room-2, 200 speakers
-Fall 2018 (to be released soon!): room-3, 200 speakers
-Additional rooms and speakers to be released Fall 2019
+- Early 2018 : room-1 and room-2, 12 mics, 200 speakers
+- Fall 2018 (to be released soon!): room-3, 20 mics, 200 speakers
+- Additional rooms and speakers to be released Fall 2019
