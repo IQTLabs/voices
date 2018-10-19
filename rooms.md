@@ -14,12 +14,9 @@ Data for VOiCES was recorded in real rooms. The full corpus includes various roo
 For all diagrams, the main loudspeaker (foreground speech) is shown at its 90 deg position, as the orange rectangle. Distractor speakers (replaying TV, music, or babble noise) are shown as the blue squares. Circles depict microphones: small light green circles are lapel microphones, large dark circles are studio microphones. Details on microphone ID numbers can be found in the [README](Lab41-SRI-VOiCES_README.md).
 
 ### Room-1
-- Room dimensions : 146'' x 107''
-- 12 microphones
 <img align="center" width="454" src="/images/room-1.png"><br>
-
+Room dimensions : 146'' x 107''
 
 ### Room-2
-- Room dimensions: 225'' x 158 ''
-- 12 microphones
 <img align="center" width="700" src="/images/room-2.png"><br>
+Room dimensions: 225'' x 158 ''
