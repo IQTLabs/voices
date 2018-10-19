@@ -15,14 +15,14 @@ Zeb Armstrong is a Computer Scientist in SRI International’s Speech Technology
 (STAR) Laboratory. His main interest is preparing and transitioning speech technologies to fulfill
 the needs of government and commercial users through software testing and user interface
 design. He uses his experience with operational signals collection and audio processing to
-anticipate clients’ needs and inform design decision.  Armstrong studied software engineering at 
+anticipate clients’ needs and inform design decision.  Armstrong studied software engineering at
 Clarkson University before joining the US Army in 2013. While in the Army he worked as an
 Arabic linguist and signals intelligence analyst, serving in both tactical and strategic capacities.
 
 ### Maria Alejandra Barrios
 
 <img align="right" width="300" src="/images/maria_barrios.jpg">
-Dr. Maria Alejandra Barrios is a data scientist at Lab41, In-Q-Tel. Her research
+Dr. Maria Alejandra Barrios is a Senior data scientist at Lab41, In-Q-Tel. Her research
 interests include deep learning implementations for audio signal processing,
 time-series analysis, image processing, and computer vision. Dr. Barrios received
 her PhD. in plasma physics from University of Rochester in 2010. Prior to joining
@@ -72,7 +72,7 @@ and linguistics. His Ph.D. in applied linguistics is from Cornell University.
 ### Karl Ni
 
 <img align="right" width="300" src="/images/karl_ni.jpg">
-Dr. Karl Ni is the Technical Director of Lab41, In-Q-Tel's AI and machine learning analytics laboratory. His interests lie in computer vision, audio signal processing, speech recognition, and natural language processing. Prior to In-Q-Tel, Dr. Ni served as principle investigator and program manager on laboratory directed projects at federally funded research and development centers, both MIT Lincoln Laboratory and Lawrence Livermore National Laboratory. Projects started and led at these organizations resided under the President's BRAIN initiative, the Departments of Defense and Homeland Security, and internally funded research. Dr. Ni received his doctoral degree from the University of California, San Diego in _Pattern Recognition Techniques for Image Processing_, and he received his bachelors degree from the University of California at Berkeley.
+Dr. Karl Ni is a Senior Software Engineer at Google. His interests lie in computer vision, audio signal processing, speech recognition, and natural language processing. Prior Dr. Ni served as principle investigator and program manager on laboratory directed projects at federally funded research and development centers, both MIT Lincoln Laboratory and Lawrence Livermore National Laboratory. Projects started and led at these organizations resided under the President's BRAIN initiative, the Departments of Defense and Homeland Security, and internally funded research. Dr. Ni received his doctoral degree from the University of California, San Diego in _Pattern Recognition Techniques for Image Processing_, and he received his bachelors degree from the University of California at Berkeley.
 
 
 ### Colleen Richey
@@ -99,4 +99,3 @@ the University of Texas at Dallas.
 
 <img align="right" width="300" src="/images/cory_stephenson.jpg">
 Dr. Cory Stephenson is a data scientist at Nervana, InTel.  His background is in complex systems and non-equilibrium thermodynamics.  His most recent work is in the application of machine learning and deep learning methods to audio signal processing. Dr. Stephenson received his Ph.D. from the University of Illinois at Urbana-Champaign.
-
