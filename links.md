@@ -9,12 +9,13 @@ aside: True
 ---
 
 ### Utilities
-- How to use the VOiCES set? Here's an [example]( 
+- How to use the VOiCES set? Here's an [example](
 https://github.com/voices18/utilities/blob/master/Using%20VOiCES%20corpus%20tutorial.ipynb)
 - Do you have an issue? Tell us about it [here](https://github.com/voices18/utilities/issues).
 
 ### Competitions
-- Coming Soon!
+- UCSD Hackathon Jan 2019
+- [Interspeech 2019 Special Session](Interspeech2019_SS)
 
 ### Sponsoring Organizations
 - <a href="http://lab41.org"><img align="center" width="200" src="/assets/l41logo.jpg"></a>
@@ -24,5 +25,3 @@ https://github.com/voices18/utilities/blob/master/Using%20VOiCES%20corpus%20tuto
 ### Participating Organizations
 - <a href="http://www.ll.mit.edu">MIT Lincoln Laboratory</a>
 - <a href="http://aws.amazon.com">Amazon Web Services</a>
-
-

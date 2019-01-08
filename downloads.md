@@ -27,7 +27,7 @@ Download data using
 or  
 ```aws s3 cp <source> <target> [--option]```
 
-### Data Releases
+#### Data Releases
 - Fall 2018 : room-1 and room-2, 12 mics, 200 speakers
 - Fall 2019 : room-3 and room-4, 12 mics, 200 speakers
 - Winter 2019: hold-out set
