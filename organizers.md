@@ -27,7 +27,7 @@ interests include deep learning implementations for audio signal processing,
 time-series analysis, image processing, and computer vision. Dr. Barrios received
 her PhD. in plasma physics from University of Rochester in 2010. Prior to joining
 Lab41 Dr. Barrios was a staff scientist at Lawrence Livermore National Laboratory, working
-on laser-driven fusion experiments at the NIF laser facility.
+on laser-driven fusion experiments at the National Ignition Facility (NIF).
 
 ### Horacio Franco
 
@@ -45,7 +45,7 @@ University of Buenos Aires, Argentina.
 ### Paul Gamble
 
 <img align="right" width="300" src="/images/paul_gamble.jpeg">
-Dr. Paul Gamble studied Biophysics at the University of Pennsylvania and received an MD from Washington University in St. Louis where he studied nerve-computer interfaces. He joined Lab 41 as a Data Scientist in September 2017 and is helping to develop a pipeline for classifying synthetic DNA sequences.e
+Dr. Paul Gamble studied Biophysics at the University of Pennsylvania and received an MD from Washington University in St. Louis where he studied nerve-computer interfaces. He joined Lab 41 as a Data Scientist in September 2017 and is helping to develop a pipeline for classifying synthetic DNA sequences.
 
 ### Martin Graciarena
 
@@ -66,7 +66,7 @@ Dr. Jeff Hetherly Dr. Jeff Hetherly is a data scientist at NVIDIA. His backgroun
 
 <img align="right" width="300" src="https://www.sri.com/sites/default/files/styles/node_main/public/bios/aaron_lawson_mp_310x226.jpg?itok=LbnT_O0s">
 Aaron Lawson is Assistant Director of SRI International’s Speech Technology and Research
-(STAR) Laboratory. His research interests include voice forensics and biometrics, languageand speaker identification from speech, social media information extraction, noise robustness,and fielding systems. He has published more than 30 papers covering speech, natural language
+(STAR) Laboratory. His research interests include voice forensics and biometrics, language and speaker identification from speech, social media information extraction, noise robustness, and fielding systems. He has published more than 30 papers covering speech, natural language
 and linguistics. His Ph.D. in applied linguistics is from Cornell University.
 
 ### Karl Ni
