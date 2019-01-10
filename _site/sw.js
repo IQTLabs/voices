@@ -1,8 +1,8 @@
-const version = '20180413235649';
+const version = '20190110155021';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/categories/","/downloads/","/blog/","/","/links/","/manifest.json","/offline/","/organizers/","/reading/","/assets/search.json","/search/","/assets/styles.css","/thanks/","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","/images/VOiCES_logo.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/general/2018/09/01/interspeech-2018/","/general/2018/05/07/asa-2018/","/general/2018/04/15/icassp-2018/","/NEW-JEKYLL-SITE-VOiCES/404/","/Interspeech2019_SpecialSession/","/about/","/categories/","/downloads/","/blog/","/","/NEW-JEKYLL-SITE-VOiCES/","/links/","/manifest.json","/offline/","/organizers/","/reading/","/rooms/","/assets/search.json","/search/","/assets/styles.css","/thanks/","/assets/css/style.css","/Lab41-SRI-VOiCES_README/","/redirects.json","/feed.xml","/sitemap.xml","/robots.txt","/images/VOiCES_logo.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

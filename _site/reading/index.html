@@ -8,9 +8,9 @@
     
 
     
-      <!-- Begin Jekyll SEO tag v2.4.0 -->
+      <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Reading | VOiCES</title>
-<meta name="generator" content="Jekyll v3.7.3" />
+<meta name="generator" content="Jekyll v3.7.4" />
 <meta property="og:title" content="Reading" />
 <meta name="author" content="VishalSandesara# jekyll-seo-tag > default author" />
 <meta property="og:locale" content="en_GB" />
@@ -98,14 +98,14 @@
       
 
       <li class="item  item--nav">
-        <a href="/downloads/">Downloads</a>
+        <a href="/downloads/">Download</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/blog/">Events</a>
+        <a href="/rooms/">Rooms</a>
       </li>
     
 
@@ -113,6 +113,13 @@
 
       <li class="item  item--nav  item--current">
         <a href="/reading/">Reading</a>
+      </li>
+    
+
+      
+
+      <li class="item  item--nav">
+        <a href="/blog/">Events</a>
       </li>
     
 
@@ -201,260 +208,37 @@ applyToggle('.list--nav', '.button', 640)
 
     <h2 id="dataset-description">Dataset Description</h2>
 
-<p>The Voices Obscured in Complex Environmental settings (VOiCES) corpus presents audio 
-recorded in acoustically challenging conditions. Recordings took place in real rooms of 
-various sizes, capturing different background and reverberation profiles for each 
-room. Various types of distractor noise (TV, music, or babble) were simultaneously 
-played with clean speech. Audio was recorded at a distance using twelve microphones 
-strategically placed throughout the room. To imitate human behavior during conversation, 
-the foreground speaker used a motorized platform to rotated over a range of angles during recordings.</p>
+<p>The Voices Obscured in Complex Environmental settings (VOiCES) corpus presents audio
+recorded in acoustically challenging conditions. Recordings took place in real rooms of
+various sizes, capturing different background and reverberation profiles for each
+room. Various types of distractor noise (TV, music, or babble) were simultaneously
+played with clean speech. Audio was recorded at a distance using twelve microphones
+strategically placed throughout the room. To imitate human behavior during conversation,
+the foreground speaker used a motorized platform, rotating over a range of angles during recordings.</p>
 
-<h3 id="data-format">Data format</h3>
+<p>Three hundred distinct speakers from LibriSpeech’s “clean” data subset were selected as the source audio, ensuring a 50-50 female-male split. In preparation for
+upcoming data challenges, the first release of the VOiCES corpus will include 200 speakers only. The remaining 100 speakers will be reserved for model validation; the full corpus
+(300 speakers) will be released once the data challenge is closed.</p>
 
-<p>Audio files will be available in WAV format with 16 kHz sample rate with 16-bit precision. All files begin with the corpus name Lab41-SRI-VOiCES. Source files specify speaker, chapter, and chapter segment identification number. The file naming format sample is shown below:</p>
-<blockquote>
-  <p>Lab41-SRI-VOiCES-scr-sp&lt; speaker_ID &gt;-ch&lt; chapter_ID &gt;-sg&lt; segmetn_ID &gt;.wav</p>
-</blockquote>
+<p>In addition to the full dataset, we also provide a dev set and a mini-dev set. Both maintain the data structure of the VOiCES corpus, but include a small subset of data. The dev set includes audio files for four randomly selected speakers (50-50 female-male split) for data recorded in Room-1. This includes data from all twelve microphones. The mini-dev set includes one speaker, one room (Room-1), and studio microphones only.</p>
 
-<p>Naming convention for audio at a distance include all the above information, with additional descriptors for room, distractor noise, microphone type, microphone location, and position of foreground speaker in degrees. The file naming format is shown below:</p>
-<blockquote>
-  <p>Lab41-SRI-VOiCES-&lt; room &gt;-&lt; distractor_noise &gt;-sp&lt; speaker_ID &gt;-ch&lt; chapter_ID &gt;-seg&lt; segment_ID &gt;-mc&lt; mic_ID &gt;-&lt; mic_type &gt;-&lt; mic_location &gt;-dg&lt; degree &gt;.wav</p>
-</blockquote>
+<h2 id="readme">Readme</h2>
 
-<hr />
-<p>Possible descriptors for room, distractor noise, microphone type, and micrphone location, are show in the table.</p>
-
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-th, td {
-    padding: 5px;
-}
-</style>
-
-<table>
-  <thead>
-    <tr>
-      <th>File Code</th>
-      <th>Type</th>
-      <th>Definition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>rm1</td>
-      <td>Room</td>
-      <td>Room-1: dimensions 146” x 107” (x 107” height)</td>
-    </tr>
-    <tr>
-      <td>rm2</td>
-      <td>Room</td>
-      <td>Room-2: dimensions 225” x 158” (x 109” height)</td>
-    </tr>
-    <tr>
-      <td>scr</td>
-      <td>Source audio</td>
-      <td>Source audio for foreground speaker</td>
-    </tr>
-    <tr>
-      <td>none</td>
-      <td>Distractor noise</td>
-      <td>No distractor noise played</td>
-    </tr>
-    <tr>
-      <td>musi</td>
-      <td>Distractor noise</td>
-      <td>Music distractor noise played</td>
-    </tr>
-    <tr>
-      <td>tele</td>
-      <td>Distractor noise</td>
-      <td>Television distractor noise played</td>
-    </tr>
-    <tr>
-      <td>babb</td>
-      <td>Distractor noise</td>
-      <td>Babble distractor noise played</td>
-    </tr>
-    <tr>
-      <td>stu</td>
-      <td>Mic type</td>
-      <td>Cardioid dynamic studio microphone</td>
-    </tr>
-    <tr>
-      <td>lav</td>
-      <td>Mic type</td>
-      <td>Omnidirectional condenser lavalier microphone</td>
-    </tr>
-    <tr>
-      <td>clo</td>
-      <td>Mic location</td>
-      <td>Closest to foreground speaker- on table</td>
-    </tr>
-    <tr>
-      <td>mid</td>
-      <td>Mic location</td>
-      <td>Mid-distance to foreground speaker- on table</td>
-    </tr>
-    <tr>
-      <td>far</td>
-      <td>Mic location</td>
-      <td>Farthest to foreground speaker- on stand</td>
-    </tr>
-    <tr>
-      <td>beh</td>
-      <td>Mic location</td>
-      <td>Behind foreground speaker- on stand</td>
-    </tr>
-    <tr>
-      <td>cec</td>
-      <td>Mic location</td>
-      <td>Overhead on ceiling, clear</td>
-    </tr>
-    <tr>
-      <td>ceo</td>
-      <td>Mic location</td>
-      <td>Overhead on ceiling, fully obstructed</td>
-    </tr>
-    <tr>
-      <td>tbo</td>
-      <td>Mic location</td>
-      <td>Partially obstructed - table</td>
-    </tr>
-    <tr>
-      <td>wlo</td>
-      <td>Mic location</td>
-      <td>Fully obstructed - wall</td>
-    </tr>
-    <tr>
-      <td>impulse</td>
-      <td>Signal</td>
-      <td>Two seconds with transient sound in middle, for room response</td>
-    </tr>
-    <tr>
-      <td>swoop</td>
-      <td>Signal</td>
-      <td>Rising tone for 20 seconds, for room response</td>
-    </tr>
-    <tr>
-      <td>tone</td>
-      <td>signal</td>
-      <td>Steady tone for 15 seconds, for room response</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-<p>Microphone identification numbers are unique to a specific microphone location and type, defined below.</p>
-
-<style>
-table, th, td {
-    border: 1px solid black;
-}
-th, td {
-    padding: 5px;
-}
-</style>
-
-<table>
-  <thead>
-    <tr>
-      <th>Mic_ID</th>
-      <th>Location</th>
-      <th>Type</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>clo</td>
-      <td>stu</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>clo</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>mid</td>
-      <td>stu</td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>mid</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>05</td>
-      <td>far</td>
-      <td>stu</td>
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>far</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>beh</td>
-      <td>stu</td>
-    </tr>
-    <tr>
-      <td>08</td>
-      <td>beh</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>09</td>
-      <td>tbo</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>cec</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>ceo</td>
-      <td>lav</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>wlo</td>
-      <td>lav</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<p>Audio files to characterize the room response are also available:</p>
-<blockquote>
-  <p>Lab41-SRI-VOiCES-&lt; room &gt;-&lt; signal &gt;-mc&lt; mic_ID &gt;-&lt; mic_type &gt;-&lt; mic_location &gt;.wav</p>
-</blockquote>
-
-<p>As are recordings of distactor noise only or ambient room background only:</p>
-<blockquote>
-  <p>Lab41-SRI-VOiCES-&lt; distractor_noise &gt;-mc&lt; mic_ID &gt;-&lt; mic_type &gt;-&lt; mic_location &gt;.wav</p>
-</blockquote>
+<p>For more details about how to use the dataset, please see our <a href="/Lab41-SRI-VOiCES_README/">README</a>.</p>
 
 <h2 id="blog-posts">Blog Posts</h2>
 
 <ul>
-  <li>Introducing the Voices Obscured in Complex Environmental Settings (VOiCES) corpus</li>
+  <li><a href="https://gab41.lab41.org/introducing-the-voices-obscured-in-complex-environmental-settings-voices-corpus-b7990d080176">Introducing the Voices Obscured in Complex Environmental Settings (VOiCES) corpus</a></li>
 </ul>
 
 <h2 id="publications">Publications</h2>
 
 <ul>
-  <li><a href="https://arxiv.org/submit/2227720/view">Corpus Description and Collection Methodology</a></li>
-  <li>Abstract for ASA – Coming Soon</li>
-  <li>Poster for ASA – Coming Soon</li>
+  <li><a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2221.pdf">Robust Speaker Recognition from Distant Speech Under Real Reverberant Environments</a></li>
+  <li><a href="https://arxiv.org/abs/1804.05053">Corpus Description and Collection Methodology</a></li>
+  <li><a href="https://voices18.github.io/general/2018/05/07/asa-2018/">175th Meeting of the Acoustical Society of America</a></li>
 </ul>
-
 
 
   </article>
@@ -499,7 +283,7 @@ th, td {
 <footer class="footer">
   <div class="container">
     <div class="copyright  typeset">
-      <small class="small">&copy; VOiCES 2018</small>
+      <small class="small">&copy; VOiCES 2019</small>
     </div>
 
     

@@ -8,9 +8,9 @@
     
 
     
-      <!-- Begin Jekyll SEO tag v2.4.0 -->
+      <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Reading | VOiCES</title>
-<meta name="generator" content="Jekyll v3.7.3" />
+<meta name="generator" content="Jekyll v3.7.4" />
 <meta property="og:title" content="Reading" />
 <meta name="author" content="VishalSandesara# jekyll-seo-tag > default author" />
 <meta property="og:locale" content="en_GB" />
@@ -98,14 +98,14 @@
       
 
       <li class="item  item--nav  item--current">
-        <a href="/downloads/">Downloads</a>
+        <a href="/downloads/">Download</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/blog/">Events</a>
+        <a href="/rooms/">Rooms</a>
       </li>
     
 
@@ -113,6 +113,13 @@
 
       <li class="item  item--nav">
         <a href="/reading/">Reading</a>
+      </li>
+    
+
+      
+
+      <li class="item  item--nav">
+        <a href="/blog/">Events</a>
       </li>
     
 
@@ -185,7 +192,7 @@ applyToggle('.list--nav', '.button', 640)
   <div class="feature" style="background-image: url(https://picsum.photos/1300/400?random)">
     <div class="container  typeset">
       <h2 id="download-page-links">Download Page Links</h2>
-<p>Voices Obscured in Complex Environmental Scenarios</p>
+<p>Voices Obscured in Complex Environmental Settings</p>
 
     </div>
   </div>
@@ -199,10 +206,31 @@ applyToggle('.list--nav', '.button', 640)
 
   <article class="article  article--page  content  typeset">
 
-    <h3 id="stay-tuned-coming-soon">Stay Tuned, Coming Soon</h3>
+    <h2 id="dataset-download">Dataset Download</h2>
 
-<p>We are in the midst of uploading all of our files onto Amazon Web Services. We will post an announcement once
-it is up and ready to go!</p>
+<p>VOiCES is now publicly available on AWS. Check out the <a href="https://registry.opendata.aws/lab41-sri-voices/">AWS Registry of Open Data</a> for details. Data structure
+and microphone specifics are available in our <a href="/Lab41-SRI-VOiCES_README/">README</a> file.</p>
+
+<h3 id="dependencies">Dependencies</h3>
+
+<p>To download VOiCES audio corpus, install the
+<a href="https://aws.amazon.com/cli/">AWS Command Line Interface (CLI)</a> and link to an active AWS account.
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html">Configure</a> the AWS CLI by typing <code class="highlighter-rouge">aws configure</code> in the command line.</p>
+
+<p>To list the content of the s3 bucket associated with VOiCES, run<br />
+<code class="highlighter-rouge">aws s3 ls s3://lab41openaudiocorpus</code></p>
+
+<p>Download data using
+<code class="highlighter-rouge">aws s3 sync &lt;source&gt; &lt;target&gt; [--options]</code>
+or<br />
+<code class="highlighter-rouge">aws s3 cp &lt;source&gt; &lt;target&gt; [--option]</code></p>
+
+<h4 id="data-releases">Data Releases</h4>
+<ul>
+  <li>Fall 2018 : room-1 and room-2, 12 mics, 200 speakers</li>
+  <li>Fall 2019 : room-3 and room-4, 12 mics, 200 speakers</li>
+  <li>Winter 2019: hold-out set</li>
+</ul>
 
 
   </article>
@@ -247,7 +275,7 @@ it is up and ready to go!</p>
 <footer class="footer">
   <div class="container">
     <div class="copyright  typeset">
-      <small class="small">&copy; VOiCES 2018</small>
+      <small class="small">&copy; VOiCES 2019</small>
     </div>
 
     
