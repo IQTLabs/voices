@@ -1,8 +1,8 @@
-const version = '20190110155646';
+const version = '20190110171624';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/general/2018/09/01/interspeech-2018/","/general/2018/05/07/asa-2018/","/general/2018/04/15/icassp-2018/","/NEW-JEKYLL-SITE-VOiCES/404/","/Interspeech2019_SpecialSession/","/about/","/categories/","/downloads/","/blog/","/","/NEW-JEKYLL-SITE-VOiCES/","/links/","/manifest.json","/offline/","/organizers/","/reading/","/rooms/","/assets/search.json","/search/","/assets/styles.css","/thanks/","/assets/css/style.css","/Lab41-SRI-VOiCES_README/","/redirects.json","/feed.xml","/sitemap.xml","/robots.txt","/images/VOiCES_logo.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/general/2019/01/10/Interspeech2019SpecialSession/","/general/2018/09/01/interspeech-2018/","/general/2018/05/07/asa-2018/","/general/2018/04/15/icassp-2018/","/NEW-JEKYLL-SITE-VOiCES/404/","/Interspeech2019_SpecialSession/","/about/","/categories/","/downloads/","/blog/","/","/NEW-JEKYLL-SITE-VOiCES/","/links/","/manifest.json","/offline/","/organizers/","/reading/","/rooms/","/assets/search.json","/search/","/assets/styles.css","/thanks/","/assets/css/style.css","/Lab41-SRI-VOiCES_README/","/redirects.json","/feed.xml","/sitemap.xml","/robots.txt","/blog/page2/","/images/VOiCES_logo.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

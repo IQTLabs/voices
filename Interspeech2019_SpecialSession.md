@@ -1,9 +1,10 @@
 ---
-title: Links
+title: Description
 feature_text: |
   ## The VOiCES from a Distance Challenge
   Interspeech 2019 Special Session
-feature_image: "https://picsum.photos/1300/400?random"
+  Voices Obscured in Complex Environmental Settings
+feature_image: "https://picsum.photos/1300/400?image=1002"
 excerpt: "Interspeech 2019 Special Session"
 aside: True
 ---
