@@ -15,7 +15,7 @@ https://github.com/voices18/utilities/blob/master/Using%20VOiCES%20corpus%20tuto
 
 ### Competitions
 - UCSD Hackathon Jan 2019
-- [Interspeech 2019 Special Session](Interspeech2019_SpecialSession)
+- [Interspeech 2019 Special Session](Interspeech2019_SpecialSession.md)
 
 ### Sponsoring Organizations
 - <a href="http://lab41.org"><img align="center" width="200" src="/assets/l41logo.jpg"></a>
