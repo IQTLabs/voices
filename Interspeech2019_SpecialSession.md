@@ -4,7 +4,7 @@ feature_text: |
   ## The VOiCES from a Distance Challenge
   Interspeech 2019 Special Session
   Voices Obscured in Complex Environmental Settings
-feature_image: "https://picsum.photos/1300/400?image=733"
+feature_image: "https://picsum.photos/1300/400?image=1051"
 excerpt: "Interspeech 2019 Special Session"
 aside: True
 ---
