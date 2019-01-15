@@ -4,7 +4,7 @@ feature_text: |
   ## The VOiCES from a Distance Challenge
   Interspeech 2019 Special Session
   Voices Obscured in Complex Environmental Settings
-feature_image: "https://picsum.photos/1300/400?image=1002"
+feature_image: "https://picsum.photos/1300/400?image=733"
 excerpt: "Interspeech 2019 Special Session"
 aside: True
 ---
@@ -17,6 +17,8 @@ in the area of speaker recognition and automatic speech recognition (ASR) for fa
 (i) _Fixed System_ - Training data is limited to [VOiCES](downloads.md), SITW, [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/), [LibriSpeech](http://www.openslr.org/12) and [Common Voice](https://voice.mozilla.org/en/datasets)
 
 (ii) _Open System_ - Participants can use any external datasets they have access to (private or public)
+
+[REGISTER HERE](https://goo.gl/forms/OehGNC7E7HRtxjCb2)
 
 ### Timeline
 **Jan. 15, 2019 :** Release of the evaluation plan and development sets  
