@@ -1,8 +1,8 @@
 ---
 title: Description
 feature_text: |
-  ## The VOiCES from a Distance Challenge
-  Interspeech 2019 Special Session
+  ## The VOiCES from a Distance Challenge -- Interspeech 2019 Special Session
+
 feature_image: "https://picsum.photos/1300/400?image=1051"
 excerpt: "Interspeech 2019 Special Session"
 aside: True
@@ -10,14 +10,17 @@ aside: True
 
 ## The Challenge
 
-The VOiCES from a distance challenge will be focused on benchmarking and further improving state-of-the-art technologies
+The VOiCES from a distance challenge 2019 will be focused on benchmarking and further improving state-of-the-art technologies
 in the area of speaker recognition and automatic speech recognition (ASR) for far-field speech. The challenge will use the VOiCES data for development and evaluation. The challenge will have two tracks for speaker recognition and ASR:
 
-(i) _Fixed System_ - Training data is limited to a subset of VOiCES, [SITW](http://www.speech.sri.com/projects/sitw/), and VoxCeleb
+(i) _Fixed System_ - Training data is limited to a subset of VOiCES, [SITW](http://www.speech.sri.com/projects/sitw/), and [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/index.html#portfolio)
 
 (ii) _Open System_ - Participants can use any external datasets they have access to (private or public)
 
 <center>{% include button.html text="REGISTER HERE" color="#733f94" link="https://goo.gl/forms/OehGNC7E7HRtxjCb2" %} </center>
+
+### Data and Evaluation
+Data subsets for challenge tracks are available for download [HERE](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11). Make sure to check-out the README.VOICES_2019.txt for more details on what is included in each subset and tips on how to to unzip the data.
 
 
 ### Timeline
