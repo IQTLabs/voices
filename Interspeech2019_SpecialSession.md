@@ -17,10 +17,16 @@ in the area of speaker recognition and automatic speech recognition (ASR) for fa
 
 (ii) _Open System_ - Participants can use any external datasets they have access to (private or public)
 
-<center>{% include button.html text="REGISTER HERE" color="#733f94" link="https://goo.gl/forms/OehGNC7E7HRtxjCb2" %} </center>
+<center>{% include button.html text="REGISTER HERE" color="#733f94" link="https://goo.gl/forms/OehGNC7E7HRtxjCb2" %} </center> <br/>
+
+
+ > Participants who complete the challenge (**submit their system outputs and system description**) will get early access to the VOiCES phase 2 data.   
+The phase 2 data is an extension of VOiCES, with over 310k audio files recorded in new reverberant environments.
 
 ### Data and Evaluation
-Data subsets for challenge tracks are available for download [HERE](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11). Make sure to check-out the README.VOICES_2019.txt for more details on what is included in each subset and tips on how to to unzip the data.
+Data subsets for challenge tracks are available for download [HERE](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11). Make sure to check-out the README.VOICES_2019.txt for more details on what is included in each subset and tips on how to to unzip the data.<br/>
+
+The [evaluation plan](/images/VOiCES_eval_plan.v4.pdf) outlines training conditions for fixed and open tracks, details on the development and evaluation data, model performance metrics, and how to submit scores, for both ASR and SID tasks. This document also provides information on how the training and evaluation datasets provided for download are organized, and evaluation rules for the challenge.  
 
 
 ### Timeline

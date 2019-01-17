@@ -9,7 +9,7 @@ aside: True
 ---
 ---
 <center>{% include button.html text="We are hosting a special session at Interspeech 2019--   
-JOIN THE VOiCES FROM A DISTANCE CHALLENGE." color="#ff9900" link="https://voices18.github.io/Interspeech2019_SpecialSession/" %} </center>  
+JOIN THE VOiCES FROM A DISTANCE CHALLENGE HERE!" color="#ff9900" link="https://voices18.github.io/Interspeech2019_SpecialSession/" %} </center>  
 
 ---
 SRI International and Lab41, In-Q-Tel, are proud to release the Voices Obscured in Complex Environmental Settings (VOICES) corpus, a collaborative effort that brings speech data in acoustically challenging reverberant environments to the researcher. Clean speech was recorded in rooms of different sizes, each having distinct room acoustic profiles, with background noise played concurrently. These recordings provides audio data that better represent real-use scenarios. The intended purpose of this corpus is to promote acoustic research including, but not limited to:
