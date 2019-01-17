@@ -13,7 +13,7 @@ aside: True
 The VOiCES from a distance challenge 2019 will be focused on benchmarking and further improving state-of-the-art technologies
 in the area of speaker recognition and automatic speech recognition (ASR) for far-field speech. The challenge will use the VOiCES data for development and evaluation. The challenge will have two tracks for speaker recognition and ASR:
 
-(i) _Fixed System_ - Training data is limited to a subset of VOiCES, [SITW](http://www.speech.sri.com/projects/sitw/), and [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/index.html#portfolio)
+(i) _Fixed System_ - Training data is limited to a subset of VOiCES, a subset of LibriSpeech, [SITW](http://www.speech.sri.com/projects/sitw/), and [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/index.html#portfolio)
 
 (ii) _Open System_ - Participants can use any external datasets they have access to (private or public)
 
