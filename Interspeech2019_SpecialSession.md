@@ -7,7 +7,7 @@ feature_image: "https://picsum.photos/1300/400?image=1051"
 excerpt: "Interspeech 2019 Special Session"
 aside: True
 redirect_from:
-  - /Interspeech2019-Special-Session/
+  - https://voices18.github.io/Interspeech2019-Special-Session/
 permalink: /Interspeech2019_SpecialSession/
 ---
 
