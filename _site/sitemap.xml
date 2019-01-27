@@ -59,6 +59,9 @@
 <loc>http://localhost:4000/Lab41-SRI-VOiCES_README/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/VOiCES_InterspeechChallenge2019_FAQ/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/page2/</loc>
 </url>
 <url>
@@ -68,5 +71,9 @@
 <url>
 <loc>http://localhost:4000/images/VOiCES_eval_plan.v4.pdf</loc>
 <lastmod>2019-01-17T19:58:04+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/images/VOiCES_eval_plan.v5.pdf</loc>
+<lastmod>2019-01-25T02:00:12+00:00</lastmod>
 </url>
 </urlset>
