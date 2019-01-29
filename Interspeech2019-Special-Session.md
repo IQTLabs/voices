@@ -8,3 +8,5 @@ excerpt: "Interspeech 2019 Special Session"
 aside: True
 
 ---
+
+Please visit [Challenge page](/Interspeech2019_SpecialSession.md)
