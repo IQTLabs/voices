@@ -27,6 +27,12 @@ in the area of speaker recognition and automatic speech recognition (ASR) for fa
  > Participants who complete the challenge (**submit their system outputs and system description**) will get early access to the VOiCES phase 2 data.   
 The phase 2 data is an extension of VOiCES, with over 310k audio files recorded in new reverberant environments.
 
+### Updates and News
+###### Jan. 24, 2019
+-  The official [scorer for speaker recognition](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11/folder/63883249918) is now released
+- Updated ASR development set is released.
+- Updated evaluation plan is released.
+
 ### Data and Evaluation
 Data subsets for challenge tracks are available for download [HERE](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11). Make sure to check-out the README.VOICES_2019.txt for more details on what is included in each subset and tips on how to to unzip the data.<br/>
 
@@ -40,12 +46,6 @@ The [evaluation plan](/images/VOiCES_eval_plan.v5.pdf) outlines training conditi
 **March 11, 2019 :** Release of evaluation results  
 **March 15, 2019 :** System description submission and release of VOiCES phase II key for the participating teams  
 **March 29, 2019 :** Regular paper submission deadline for Interspeech 2019  
-
-### Updates and News
-###### Jan. 24, 2019
--  The official [scorer for speaker recognition](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11/folder/63883249918) is now released
-- Updated ASR development set is released.
-- Updated evaluation plan is released.
 
 ### FAQ’s
 
