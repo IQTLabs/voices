@@ -28,6 +28,11 @@ in the area of speaker recognition and automatic speech recognition (ASR) for fa
 The phase 2 data is an extension of VOiCES, with over 310k audio files recorded in new reverberant environments.
 
 ### Updates and News
+
+###### Feb. 27, 2019
+- Evaluation data for speaker recognition and automatic speech recognition (ASR) tasks
+is [now available](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11/folder/63974282174). Note
+system outputs are due by March 4th, 2019 11:59 PM PST. 
 ###### Jan. 24, 2019
 -  The official [scorer for speaker recognition](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11/folder/63883249918) is now released
 - Updated ASR development set is released.
@@ -36,7 +41,7 @@ The phase 2 data is an extension of VOiCES, with over 310k audio files recorded 
 ### Data and Evaluation
 Data subsets for challenge tracks are available for download [HERE](https://app.box.com/s/9tpuuycgxk9hykr6romsv05vvmdpie11). Make sure to check-out the README.VOICES_2019.txt for more details on what is included in each subset and tips on how to to unzip the data.<br/>
 
-The [evaluation plan](/images/VOiCES_eval_plan.v5.pdf) outlines training conditions for fixed and open tracks, details on the development and evaluation data, model performance metrics, and how to submit scores, for both ASR and SID tasks. This document also provides information on how the training and evaluation datasets provided for download are organized, and evaluation rules for the challenge.  
+The [evaluation plan](/images/VOiCES_eval_plan.v6.pdf) outlines training conditions for fixed and open tracks, details on the development and evaluation data, model performance metrics, and how to submit scores, for both ASR and SID tasks. This document also provides information on how the training and evaluation datasets provided for download are organized, and evaluation rules for the challenge.  
 
 
 ### Timeline
