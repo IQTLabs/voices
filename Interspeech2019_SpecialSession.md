@@ -55,4 +55,4 @@ The [evaluation plan](/images/VOiCES_eval_plan.v6.pdf) outlines training conditi
 ### FAQ’s
 You've got questions, we've got [answers](Interpeech_FAQ.md).
 
-Additional questions about the challenge? contact us at voices_poc@sri.com
+Additional questions about the challenge? Contact us at voices_poc@sri.com
