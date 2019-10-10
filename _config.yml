@@ -99,7 +99,7 @@ navigation_header:
   Search: /search/
 
 navigation_footer:
-  A Speech Collaboration: https://voices.github.io
+  A Speech Collaboration: https://github.com/voices18
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/lab41
