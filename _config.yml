@@ -97,6 +97,7 @@ navigation_header:
   Organizers: /organizers/
   Links: /links/
   Search: /search/
+  Mailing List: ./mailing_list/
 
 navigation_footer:
   A Speech Collaboration: https://voices.github.io
