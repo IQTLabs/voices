@@ -31,9 +31,24 @@ For more details about how to use the dataset, please see our [README](Lab41-SRI
 ## Blog Posts
 
 - [Introducing the Voices Obscured in Complex Environmental Settings (VOiCES) corpus](https://gab41.lab41.org/introducing-the-voices-obscured-in-complex-environmental-settings-voices-corpus-b7990d080176)
+- [Realistic speech data applications in Machine Learning](https://gab41.lab41.org/using-realistic-audio-data-in-machine-learning-49ef034b93a3)
+- [VOiCES: closing one chapter and starting a second](https://gab41.lab41.org/voices-closing-one-chapter-and-starting-a-second-1c67d32ac888)
 
 ## Publications
 
 - [Robust Speaker Recognition from Distant Speech Under Real Reverberant Environments](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2221.pdf)
 - [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
 - [175th Meeting of the Acoustical Society of America](https://voices18.github.io/general/2018/05/07/asa-2018/)
+- [The VOiCES from a Distance Challenge 2019 Evaluation Plan](https://arxiv.org/abs/1902.10828)
+- [The VOiCES from a Distance Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1837.pdf)
+- [STC Speaker Recognition Systems for the VOiCES From a Distance Challenge](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2783.pdf)
+- [Analysis of BUT Submission in Far-Field Scenarios of VOiCES 2019 Challenge](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2471.pdf)
+- [The STC ASR System for the VOiCES from a Distance Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1574.pdf)
+- [The I2R’s ASR System for the VOiCES from a Distance Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2130.pdf)
+- [Multi-Task Discriminative Training of Hybrid DNN-TVM Model for Speaker Verification with Noisy and Far-Field Speech](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/3010.pdf)
+- [The JHU Speaker Recognition System for the VOiCES 2019 Challenge](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2979.pdf)
+- [Intel Far-Field Speaker Recognition System for VOiCES Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2894.pdf)
+- [The I2R’s Submission to VOiCES Distance Speaker Recognition Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1997.pdf)
+- [The LeVoice Far-Field Speech Recognition System for VOiCES from a Distance Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1944.pdf)
+- [The JHU ASR System for VOiCES from a Distance Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1948.pdf)
+- [The DKU System for the Speaker Recognition Task of the 2019 VOiCES from a Distance Challenge](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1435.pdf)
