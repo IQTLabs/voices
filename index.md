@@ -8,7 +8,7 @@ excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
 ---
-[![Check out the VOiCES Explainer Video!](http://img.youtube.com/vi/R4rjYwQhzAE/0.jpg)](http://www.youtube.com/watch?v=R4rjYwQhzAE)
+[![Check out the VOiCES Explainer Video!](http://img.youtube.com/vi/R4rjYwQhzAE/0.jpg)](http://www.youtube.com/watch?v=R4rjYwQhzAE/200/300?style=centerme)
 
 ---
 SRI International and Lab41, In-Q-Tel, are proud to release the Voices Obscured in Complex Environmental Settings (VOICES) corpus, a collaborative effort that brings speech data in acoustically challenging reverberant environments to the researcher. Clean speech was recorded in rooms of different sizes, each having distinct room acoustic profiles, with background noise played concurrently. These recordings provides audio data that better represent real-use scenarios. The intended purpose of this corpus is to promote acoustic research including, but not limited to:
