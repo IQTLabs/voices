@@ -11,7 +11,10 @@ aside: True
 <!-- modify this form HTML and place wherever you want your form -->
 <body>
 <form action="https://formspree.io/xaywayar" method="POST">
-    Name:<input type="text" name="Name", placeholder="Your name">
+  <label>
+    Name:
+    <input type="text" name="Name", placeholder="Your name"/>
+  </label>
     Email:<input type="text" name="_replyto", placeholder="Your email">
     Affiliation:<input type="text" name="Affiliation", placeholder="Your affiliation">
     Your message:<textarea name="message"></textarea>
