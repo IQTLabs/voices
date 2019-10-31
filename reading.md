@@ -40,7 +40,7 @@ For more details about how to use the dataset, please see our [README](Lab41-SRI
 - [Corpus Description and Collection Methodology](https://arxiv.org/abs/1804.05053)
 - [175th Meeting of the Acoustical Society of America](https://voices18.github.io/general/2018/05/07/asa-2018/)
 
-#### Interspeech 2019: VOiCES from a  Distance Challenge
+##### Interspeech 2019: VOiCES from a  Distance Challenge
 
 - [The VOiCES from a Distance Challenge 2019 Evaluation Plan](https://arxiv.org/abs/1902.10828)
 - [The VOiCES from a Distance Challenge 2019](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1837.pdf)
