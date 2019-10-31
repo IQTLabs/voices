@@ -103,11 +103,11 @@ navigation_footer:
   A Speech Collaboration: https://voices.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/lab41
+  Twitter: https://twitter.com/_lab41
   # LinkedIn: https://www.linkedin.com/in/daviddarnes
   # Google+: https://plus.google.com/+DavidDarnes
   GitHub: https://github.com/lab41
-  link: https://lab41.org/datasets
+  link: https://lab41.org
   # RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
