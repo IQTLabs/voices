@@ -16,21 +16,20 @@ aside: True
 >
   <label>
     Name:
-    <input type="text" name="Name", placeholder="Your name">
+    <input type="text" name="Name">
   </label>
   <label>
     Email:
-    <input type="text" name="_replyto", placeholder="Your email">
+    <input type="text" name="_replyto">
   </label>
-   <label>
+  <label>
     Affiliation:
-    <input type="text" name="Affiliation", placeholder="Your affiliation">
+    <input type="text" name="Affiliation">
   </label>
   <label>
     Your message:
     <textarea name="message"></textarea>
   </label>
-  
 
   <button type="submit">Send</button>
 </form>
