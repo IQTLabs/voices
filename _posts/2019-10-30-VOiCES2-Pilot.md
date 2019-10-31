@@ -25,4 +25,3 @@ people in a room, having real conversations.
 demographics and full transcripts of the conversations with speaker tracking.
 
 More information on the goals for VOiCES II you can visit our [blog](https://gab41.lab41.org/voices-closing-one-chapter-and-starting-a-second-1c67d32ac888) and join our mailing list to receive updates.
-voices_II
