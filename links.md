@@ -14,7 +14,7 @@ https://github.com/voices18/utilities/blob/master/Using%20VOiCES%20corpus%20tuto
 - Do you have an issue? Tell us about it [here](https://github.com/voices18/utilities/issues).
 
 ### Competitions
-- UCSD Hackathon Jan 2019
+- [UCSD Hackathon Jan 2019](https://hkn.ucsd.edu/hard-hack-2019/)
 - [Interspeech 2019 Special Session](Interspeech2019_SpecialSession.md)
 
 ### Sponsoring Organizations
