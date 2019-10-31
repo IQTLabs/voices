@@ -2,7 +2,7 @@
 title: Reading
 feature_text: |
   ## Dataset Specifics and Reading Material
-  Implementation details, file formats, and paper links
+  Implementation details, paper links, and blogs
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
