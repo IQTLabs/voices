@@ -9,7 +9,7 @@ aside: True
 ---
 
 <!-- modify this form HTML and place wherever you want your form -->
-
+<body>
 <form
   action="https://formspree.io/xaywayar"
   method="POST"
@@ -34,3 +34,4 @@ aside: True
 
   <button type="submit">Send</button>
 </form>
+</body>
