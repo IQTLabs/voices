@@ -9,11 +9,8 @@ aside: True
 ---
 
 <!-- modify this form HTML and place wherever you want your form -->
-
-<form
-  action="https://formspree.io/xaywayar"
-  method="POST"
->
+<body>
+<form action="https://formspree.io/xaywayar" method="POST">
   <label>
     Name:
     <input type="text" name="Name">
