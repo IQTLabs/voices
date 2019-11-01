@@ -54,8 +54,8 @@ aside: True
 <table border="0">
  <tr>
     <td>
-    Lab41, In-Q-Tel. <br>
-    Senior Data Scientist
+    Respira Labs <br>
+    Head of Data Science
     </td>
     <td>
     <img align="right" width="250" src="/images/maria_barrios.jpg">
@@ -80,8 +80,8 @@ aside: True
 <table border="0">
  <tr>
     <td>
-    Lab41, In-Q-Tel. <br>
-    Data Scientist
+    Google <br>
+    AI Residdent
     </td>
     <td>
     <img align="right" width="180" src="/images/paul_gamble.jpeg">
@@ -106,8 +106,8 @@ aside: True
 <table border="0">
  <tr>
     <td>
-    NVIDIA <br>
-    Data Scientist
+    Google <br>
+    ML Engineer
     </td>
     <td>
     <img align="right" width="180" src="/images/jeff_hetherly.jpg">
