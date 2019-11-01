@@ -3,7 +3,7 @@ title: Reading
 feature_text: |
   ## Rooms configuration details
   Voices Obscured in Complex Environmental Settings
-feature_image: "https://picsum.photos/1300/400?random"
+feature_image: "/images/Rooms_Page_VOiCES_Website.jpg"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---

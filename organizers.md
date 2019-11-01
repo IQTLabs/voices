@@ -3,12 +3,51 @@ title: Organizers
 feature_text: |
   ## Organizers and Contact Information
   Voices Obscured in Complex Environmental Settings
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "/images/Organizer_Page_VOiCES_Website.jpg"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
-### Current
+### Current Organizers
 ---
+##### Michael Lomnitz
+<table border="0">
+ <tr>
+    <td>
+    Lab41, In-Q-Tel. <br>
+    Data Scientist
+    </td>
+    <td>
+    <img align="right" width="160" src="/images/MichaelLomnitz_lowerR.jpg">
+    </td>
+ </tr>
+</table>
+
+##### Vishal Sandesara
+<table border="0">
+ <tr>
+    <td>
+    Lab41, In-Q-Tel. <br>
+    Director of Strategic Partnerships
+    </td>
+    <td>
+    <img align="right" width="140" src="/images/Sandesara.jpg">
+    </td>
+ </tr>
+</table>
+
+##### Mahesh Kumar Nandwana
+<table border="0">
+ <tr>
+    <td>
+    Speech Technology and Research (STAR), SRI<br>
+    Advanced Computer Scientist II
+    </td>
+    <td>
+    <img align="right" width="200" src="/images/mahesh.jpg">
+    </td>
+ </tr>
+</table>
+
 ##### Zeb Armstrong
 <table border="0">
  <tr>
@@ -48,7 +87,7 @@ aside: True
  </tr>
 </table>
 
-### Former
+### Former Organizers
 ---
 ##### Maria Alejandra Barrios
 <table border="0">
