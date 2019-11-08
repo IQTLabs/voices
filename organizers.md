@@ -120,7 +120,7 @@ aside: True
  <tr>
     <td>
     Google <br>
-    AI Residdent
+    AI Resident
     </td>
     <td>
     <img align="right" width="180" src="/images/paul_gamble.jpeg">
