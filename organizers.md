@@ -184,7 +184,7 @@ aside: True
 <table border="0">
  <tr>
     <td>
-    Nervana, InTel <br>
+    Nervana, Intel <br>
     Data Scientist
     </td>
     <td>
