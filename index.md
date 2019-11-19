@@ -7,9 +7,7 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
-
 {% include button.html text="We are hosting a special session at Speaker Odyssey 2020 -- JOIN VOiCES 2020: Advances in Far-Field Speaker Recognition HERE!" color="#ff9900" link="http://www.odyssey2020.org/voices2020.html" %}
-
 ---
 {% include youtube_player.html id="R4rjYwQhzAE" %}
 
