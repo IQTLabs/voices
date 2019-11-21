@@ -35,6 +35,19 @@ aside: True
  </tr>
 </table>
 
+##### Jack Berkowitz
+<table border="0">
+ <tr>
+    <td>
+    Lab41, In-Q-Tel. <br>
+    Data Scientist
+    </td>
+    <td>
+    <img align="right" width="140" src="/images/jack_headshot.jpg">
+    </td>
+ </tr>
+</table>
+
 ##### Mahesh Kumar Nandwana
 <table border="0">
  <tr>
