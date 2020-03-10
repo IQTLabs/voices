@@ -39,3 +39,15 @@ More specific details can be seen at in our readme and paper in the [reading sec
 VOiCES is publicly available released under Creative Commos BY 4.0, free for commercial, academic, and
 government use. If you use VOiCES, we would appreciate reference to the following
 in publications [VOiCES](https://arxiv.org/abs/1804.05053).
+
+Biblatex entry:
+```
+@misc{richey2018voices,
+    title={Voices Obscured in Complex Environmental Settings (VOICES) corpus},
+    author={Colleen Richey and Maria A. Barrios and Zeb Armstrong and Chris Bartels and Horacio Franco and Martin Graciarena and Aaron Lawson and Mahesh Kumar Nandwana and Allen Stauffer and Julien van Hout and Paul Gamble and Jeff Hetherly and Cory Stephenson and Karl Ni},
+    year={2018},
+    eprint={1804.05053},
+    archivePrefix={arXiv},
+    primaryClass={cs.SD}
+}
+```
