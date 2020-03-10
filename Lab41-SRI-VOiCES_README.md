@@ -13,6 +13,53 @@ Three hundred distinct speakers from LibriSpeech's "clean" data subset were sele
 upcoming data challenges, the first release of the VOiCES corpus will include 200 speakers only. The remaining 100 speakers will be reserved for model validation; the full corpus
 (300 speakers) will be released once the data challenge is closed.     
 
+## Description of Files
+
+`VOiCES_competition` was a release designed for a special competition workshop at InterSpeech 2019.  See the `README` inside the archive for more information on the structure and arrangement of the dataset.
+
+`VOiCES_release` is the full VOiCES dataset with a general purpose directory structure.  `VOiCES_devkit` is a subset of the data (detailed below) designed for easier experimentation and development.  Both `VOiCES_release` and `VOiCES_devkit` have the same directory structure.
+
+#### VOiCES_release
+
+`VOiCES_release` contains all recordings from each room, mic, and under all distractor types.  Rooms 1 and 2 have 12 mics, and rooms 3 and 4 have 20 mics.  As there are four types of distractor noises, there are 256 VOiCES recordings per source recording.  All source recordings have unique transcripts.
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
+|Subset    |# Examples    |
+|----------|--------|
+|Train|661,248|
+|Test| 337,920|
+|Total|19,200|
+
+<br>
+
+#### VOiCES_devkit
+
+`VOiCES_devkit` is a subsample of the full `VOiCES_release` dataset.  All of the speakers of the full dataset are retained.  For each speaker we randomly selected two librispeech source recordings.  For each source recording we retained all of the VOiCES recordings from microphones 1 and 5, the nearest and furthest mics, respectively, from the speaker.  Otherwise all rooms and background distractor types are included for a total of 32 VOiCES recordings per source recording.
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
+|Subset    |# Examples    |
+|----------|--------|
+|Train|12,800|
+|Test| 6,400|
+|Total|19,200|
+
+---
 ### Source audio references
 
 Source audio references, per LibriSpeech, are provided in three different tables as follows:  
@@ -72,6 +119,13 @@ th, td {
 | ceo              | Mic location       | Overhead on ceiling, fully obstructed                                      |
 | tbo              | Mic location       | Partially obstructed - table                                               |
 | wal              | Mic location       | Fully obstructed - wall                                                    |
+| ds1              | Mic location       | Near distractor 1                                                          |
+| ds2              | Mic location       | Near distractor 2                                                          |
+| ds3              | Mic location       | Near distractor 3                                                          |
+| tbc              | Mic location       | Mid-distance, on table                                                     |
+| sho              | Mic location       | In cupboard, fully obstructed                                              |
+| ref              | Mic location       | Across the room, near refrigerator                                         |
+| obs              | Mic location       | Fully.partially obstructed in wall/ceiling                                 |
 | impulse          | Signal             | Two seconds with transient sound in middle, for room response              |
 | swoop            | Signal             | Rising tone for 20 seconds, for room response                              |
 | tone             | signal             | Steady tone for 15 seconds, for room response                              |  
@@ -85,16 +139,96 @@ the audio files used from LibriSpeech, corrected for DC offset and normalized to
 - speech : for each room, recordings of foreground audio with babble, music, television or no distractor noise, arranged by
 speaker ID in each subfolder.  
 
+---
+#### Directory Structure
 
-The directory hierarchy is shown below :  
+There are three top-level directories in root folder of `VOiCES_release` and `VOiCES_devkit`: `references`, `source-16k`, and `distant-16k`.  The contents of these directories are detailed below.
 
 
-<p align="center">
-  <img width="300" src="/images/VOiCES_directory_structure.png">
-</p>
+`references` contains a number of files with information about the dataset.  All necessary information is gathered in `test_index.csv` and `train_index.csv`, and other files are redundant.
+```
+- references/
+  - filename_transcripts
+  - Lab41-SRI-VOiCES-speaker-book-chapter.tbl
+  - Lab41-SRI-VOiCES-speaker-gender-dataset.tbl
+  - test_index.csv
+  - Test_Set_Speakers.csv
+  - time_values.csv
+  - train_index.csv
+```
+
+`source-16k` contains the original librispeech source audio.  The train-test split is the same as the VOiCES data.  The audio files are separated by speaker ID.  For example, all audio from speaker 115 is stored in `sp0115/`.
+```
+- source-16k/
+  - test/
+    - sp0115/
+      - Lab41-SRI-VOiCES-src-sp0115-ch121720-sg0008.wav
+      - ...
+    - ...
+  - train/
+```
+
+
+`distant-16k` contains the VOiCES data.  There are subdirectories for the audio files used to create the distractor sounds, as well as for room responses when test sounds (impulse, swoop, and tone) are played.
+```
+- distant-16k
+  - distractors/
+    - rm1/
+      - babb/
+        - Lab41-SRI-VOiCES-rm1-babb-mc01-stu-clo.wav
+        - ...
+      - ...
+    - ...
+  - room_response/
+    - rm1/
+      - impulse/
+        - Lab41-SRI-VOiCES-rm1-impulse-mc01-stu-clo.wav
+        - ...
+      - swoop/
+      - tone/
+    - ...
+  - speech/
+    - test/
+    - train/
+      - rm1/
+        - babb/
+          - sp0032/
+            - Lab41-SRI-VOiCES-rm1-babb-sp0032-ch004137-sg0007-mc01-stu-clo-dg150
+          - ...
+        - ...
+      - ...
+```
+
+### Index Files
+
+In the `references` directory there are two csv files, `train_index.csv` and `test_index.csv`, that serve as index files for the training and test sets, respectively.  Each file contains a single row for each recording in the given subset of the data.  Both files have the following columns.
+
+|Column   |Datatype   |Description|   
+|---------|-----------|-----------|
+|index| integer| Unique index for recording
+|chapter| integer | Librispeech chapter ID
+|degrees| integer | Angle (in degrees) between source speaker and mic
+|distractor| string | Distractor type, options are 'none', 'babb', 'tele, 'musi'
+|filename| string| Path to recording .wav, relative to root directory
+|gender| string| Speaker gender, options are 'M' and 'F'
+|mic| integer| The mic used for this recording
+|query_name| string| The filename without directory path or extension
+|room| string| The room recorded in, options are 'rm1', 'rm2', 'rm3', 'rm4'
+|segment| integer| Librispeech segment ID
+|source| string| Path to .wav file for Librispeech source audio for this recording
+|speaker| integer| Librispeech speaker ID
+|transcript| string| Orthographic transcript of the Librispeech source audio
+|noisy_length| integer| Sample length of recording
+|noisy_sr| integer| Sample rate (hz) of recording
+|noisy_time| float| Duration of recording in seconds
+|source_length| integer| Sample length of Librispeech source audio
+|source_sr| integer| Sample rate (hz) of Librispeech source audio
+|source_time| float| Duration of Librispeech source audio in seconds
+
 
 ---
-### Microphone Details
+## Rooms 1 and 2
+#### Microphone Details
 
 Microphone identification numbers are unique to a specific microphone location and type, defined below.
 
@@ -323,7 +457,353 @@ th, td {
 
 </body>
 </html>
+
 ---
+## Rooms 3 and 4
+#### Microphone Details
+
+Microphone identification numbers are unique to a specific microphone location and type, defined below.
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+
+| **Mic_ID** | **Location**  | **Model**      | **Type**
+|--------|-----------|------------|-------|
+| 01     | clo       | SHURE SM58 | stu   |
+| 02     | clo       | AKG 417L   | lav   |
+| 03     | mid       | SHURE SM58 | stu   |
+| 04     | mid       | AKG 417L   | lav   |
+| 05     | far       | SHURE SM58 | stu   |
+| 06     | far       | AKG 417L   | lav   |
+| 07     | beh       | SHURE SM58 | stu   |
+| 08     | beh       | AKG 417L   | lav   |
+| 09     | tbo       | AKG 417L   | lav   |
+| 10     | cec       | AKG 417L   | lav   |
+| 11     | ceo       | AKG 417L   | lav   |
+| 12     | wal       | SHURE SM58 | lav   |
+| 13     | ds1       | ATR1500    | stu   |
+| 14     | ds2       | ATR1500    | stu   |
+| 15     | ds3       | ATR1500    | stu   |
+| 16     | tbc       | ATR4697    | bar   |
+| 17     | sho       | L41        | mem   |
+| 18     | clo       | ADA I2S    | mem   |
+| 19     | ref       | ADA I2S    | mem   |
+| 20     | obs       | ADA I2S    | mem   |
+
+<br>
+
+Distance (inches) between microphones and loudspeakers or floor, for Room-1 and Room-2 recordings.
+For microphones 13, 14 and 15 the distances are reported first for non-babble sessions, and then for babble sessions.
+
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:110%">
+  <tr>
+    <th> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Foreground</b> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Distractor 1</b> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Distractor 2</b> </th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Distractor 3</b></th>
+    <th colspan="2" style="font-size:115%;text-align:center;"> <b>Floor</b> </th>    
+  </tr>
+  <tr>
+    <td><b>Mic_ID</b></td>
+    <td><b>rm-3</b></td>
+    <td><b>rm-4</b></td>
+    <td><b>rm-3</b></td>
+    <td><b>rm-4</b></td>
+    <td><b>rm-3</b></td>
+    <td><b>rm-4</b></td>
+    <td><b>rm-3</b></td>
+    <td><b>rm-4</b></td>
+    <td><b>rm-3</b></td>
+    <td><b>rm-4</b></td>
+  </tr>
+  <tr>
+    <td> 01 </td>
+    <td> 67 </td>
+    <td> 72 </td>
+    <td> 179 </td>
+    <td> 291 </td>
+    <td> 170 </td>
+    <td> 222 </td>
+    <td> 141 </td>
+    <td> 79 </td>
+    <td> 41 </td>
+    <td> 41 </td>  
+  </tr>
+  <tr>
+    <td> 02  </td>
+    <td> 67 </td>
+    <td> 72  </td>
+    <td> 179 </td>
+    <td> 291 </td>
+    <td> 170 </td>
+    <td> 222 </td>
+    <td> 141  </td>
+    <td> 79  </td>
+    <td> 41 </td>
+    <td> 41 </td>  
+  </tr>
+  <tr>
+    <td> 03 </td>
+    <td> 146 </td>
+    <td> 167 </td>
+    <td> 117 </td>
+    <td> 200  </td>
+    <td> 157 </td>
+    <td> 150  </td>
+    <td> 106 </td>
+    <td> 126  </td>
+    <td> 41  </td>
+    <td> 41  </td>  
+  </tr>
+  <tr>
+    <td> 04 </td>
+    <td> 146  </td>
+    <td> 167 </td>
+    <td> 117 </td>
+    <td> 200  </td>
+    <td> 157 </td>
+    <td> 150  </td>
+    <td> 106 </td>
+    <td> 126  </td>
+    <td> 41  </td>
+    <td> 41  </td>  
+  </tr>
+  <tr>
+    <td> 05  </td>
+    <td> 281 </td>
+    <td> 387 </td>
+    <td> 103 </td>
+    <td> 76 </td>
+    <td> 207 </td>
+    <td> 106 </td>
+    <td> 165 </td>
+    <td> 306 </td>
+    <td> 67 </td>
+    <td> 71 </td>  
+  </tr>
+  <tr>
+    <td> 06 </td>
+    <td> 281 </td>
+    <td> 387 </td>
+    <td> 103 </td>
+    <td> 76 </td>
+    <td> 207 </td>
+    <td> 106 </td>
+    <td> 165 </td>
+    <td> 306 </td>
+    <td> 67 </td>
+    <td> 71 </td>  
+  </tr>
+  <tr>
+    <td> 07 </td>
+    <td> 58 </td>
+    <td> 71 </td>
+    <td> 292 </td>
+    <td> 367 </td>
+    <td> 252 </td>
+    <td> 420 </td>
+    <td> 232 </td>
+    <td> 167  </td>
+    <td> 67  </td>
+    <td> 70 </td>  
+  </tr>
+  <tr>
+    <td> 08 </td>
+    <td> 58 </td>
+    <td> 71 </td>
+    <td> 292 </td>
+    <td> 367 </td>
+    <td> 252 </td>
+    <td> 420 </td>
+    <td> 232 </td>
+    <td> 167 </td>
+    <td> 67 </td>
+    <td> 67 </td>  
+  </tr>
+  <tr>
+    <td> 09 </td>
+    <td> 88 </td>
+    <td> 128 </td>
+    <td> 163 </td>
+    <td> 241 </td>
+    <td> 165 </td>
+    <td> 183 </td>
+    <td> 129 </td>
+    <td> 101 </td>
+    <td> 27 </td>
+    <td> 27 </td>  
+  </tr>
+  <tr>
+    <td> 10 </td>
+    <td> 176 </td>
+    <td> 173 </td>
+    <td> 135 </td>
+    <td> 208 </td>
+    <td> 174 </td>
+    <td> 159 </td>
+    <td> 135 </td>
+    <td> 128 </td>
+    <td> 126 </td>
+    <td> 95 </td>  
+  </tr>
+  <tr>
+    <td> 11 </td>
+    <td> 176 </td>
+    <td> 175 </td>
+    <td> 135 </td>
+    <td> 210 </td>
+    <td> 174 </td>
+    <td> 155 </td>
+    <td> 135 </td>
+    <td> 130 </td>
+    <td> 125 </td>
+    <td> 97 </td>  
+  </tr>
+  <tr>
+    <td> 12 </td>
+    <td> 262 </td>
+    <td> 380 </td>
+    <td> 54 </td>
+    <td> 39 </td>
+    <td> 157 </td>
+    <td> 131 </td>
+    <td> 188 </td>
+    <td> 128 </td>
+    <td> 10 </td>
+    <td> 12 </td>  
+  </tr>
+  <tr>
+    <td> 13 </td>
+    <td> 230/224 </td>
+    <td> 259/337 </td>
+    <td> 10/30 </td>
+    <td> 10/30 </td>
+    <td> 107/121 </td>
+    <td> 42/92 </td>
+    <td> 196/175 </td>
+    <td> 277/259 </td>
+    <td> 42 </td>
+    <td> 42 </td>  
+  </tr>
+  <tr>
+    <td> 14 </td>
+    <td> 219/178 </td>
+    <td> 344/305 </td>
+    <td> 23/61 </td>
+    <td> 23/61 </td>
+    <td> 108/95 </td>
+    <td> 42/62 </td>
+    <td> 185/176 </td>
+    <td> 263/224 </td>
+    <td> 42 </td>
+    <td> 42 </td>  
+  </tr>
+  <tr>
+    <td> 15 </td>
+    <td> 201/195 </td>
+    <td> 334/331 </td>
+    <td> 40/60 </td>
+    <td> 40/61 </td>
+    <td> 102/55 </td>
+    <td> 42/51 </td>
+    <td> 176/213 </td>
+    <td> 151/242 </td>
+    <td> 42 </td>
+    <td> 42 </td>  
+  </tr>
+  <tr>
+    <td> 16 </td>
+    <td> 108 </td>
+    <td> 128 </td>
+    <td> 144 </td>
+    <td> 241 </td>
+    <td> 156 </td>
+    <td> 179 </td>
+    <td> 120 </td>
+    <td> 128</td>
+    <td> 28 </td>
+    <td> 28 </td>  
+  </tr>
+  <tr>
+    <td> 17 </td>
+    <td> 151 </td>
+    <td> 353 </td>
+    <td> 145 </td>
+    <td> 40 </td>
+    <td> 72 </td>
+    <td> 115 </td>
+    <td> 238 </td>
+    <td> 281</td>
+    <td> 22 </td>
+    <td> 14 </td>  
+  </tr>
+  <tr>
+    <td> 18 </td>
+    <td> 75 </td>
+    <td> 78 </td>
+    <td> 176 </td>
+    <td> 287 </td>
+    <td> 175 </td>
+    <td> 216 </td>
+    <td> 132 </td>
+    <td> 74</td>
+    <td> 30 </td>
+    <td> 30 </td>  
+  </tr>
+  <tr>
+    <td> 19 </td>
+    <td> 236 </td>
+    <td> 286 </td>
+    <td> 87 </td>
+    <td> 208 </td>
+    <td> 36 </td>
+    <td> 232 </td>
+    <td> 267 </td>
+    <td> 273</td>
+    <td> 38 </td>
+    <td> 1 </td>  
+  </tr>
+  <tr>
+    <td> 20 </td>
+    <td> 250 </td>
+    <td> 407 </td>
+    <td> 173 </td>
+    <td> 68 </td>
+    <td> 261 </td>
+    <td> 130 </td>
+    <td> 80 </td>
+    <td> 320</td>
+    <td> 45 </td>
+    <td> 97 </td>  
+  </tr>
+</table>
+
+</body>
+</html>
+
+ ---
 ## Licensing
 
 VOiCES is publicly available released under Creative Commos BY 4.0, free for commercial, academic, and
