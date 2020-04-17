@@ -1,3 +1,12 @@
+---
+title: Readme
+feature_text: |
+  ## Detailed VOiCES Readme
+  Voices Obscured in Complex Environmental Settings
+feature_image: "/images/readme.jpg"
+excerpt: "A detailed description of the VOiCES corpus"
+aside: False
+---
 ## Dataset Description
 
 The VOiCES corpus is a collaboration between
@@ -18,6 +27,8 @@ upcoming data challenges, the first release of the VOiCES corpus will include 20
 `VOiCES_competition` was a release designed for a special competition workshop at InterSpeech 2019.  See the `README` inside the archive for more information on the structure and arrangement of the dataset.
 
 `VOiCES_release` is the full VOiCES dataset with a general purpose directory structure.  `VOiCES_devkit` is a subset of the data (detailed below) designed for easier experimentation and development.  Both `VOiCES_release` and `VOiCES_devkit` have the same directory structure.
+
+`recording_data` contains two files, `distances.csv` and `quality_metrics.csv` with useful information about the recordings.  Both files have a row for every recording.
 
 #### VOiCES_release
 
@@ -58,6 +69,37 @@ th, td {
 |Train|12,800|
 |Test| 6,400|
 |Total|19,200|
+
+## recording_data.csv
+
+`recording_data.csv` contains two files, `distances.csv` and `quality_metrics.csv`, with auxiliary information for each recording in the VOiCES dataset, with a row for each recording.
+
+### distances.csv
+
+Each row in this file contains the distance (in inches) from the foreground speaker, each of the distractor speakers, and the floor to the microphone for a given recording.  Specifically, it has the following columns:
+
+|Column   |Datatype   |Description|   
+|---------|-----------|-----------|
+|distractor 1| integer| Inches from mic to 1st distractor speaker
+|distractor 2| integer| Inches from mic to 2nd distractor speaker
+|distractor 3| integer| Inches from mic to 3rd distractor speaker
+|floor| integer| Inches from mic to floor
+|foreground| integer| Inches from mic to source/foreground speaker
+|query_name| string| The recording filename without directory path or extension, useful as a key to join with other tables (e.g. index files)
+
+
+### quality_metrics.csv
+
+This file contains a number of precomputed measures of speech quality or intelligibility for each recording.  Intrusive methods use the original Librispeech source audio as the ground truth.  For recordings where the VOiCES audio does not fully contain the source audio (detectable from comparing source_length and noisy_length in index files), all quality_metrics are set to -1.
+
+|Column   |Datatype   |Description|   
+|---------|-----------|-----------|
+|query_name| string| The recording filename without directory path or extension, useful as a key to join with other tables (e.g. index files)
+|pesq nb| float| [Perceptual Evaluation of Speech Quality](https://en.wikipedia.org/wiki/Perceptual_Evaluation_of_Speech_Quality), computed using [python-pesq](https://github.com/ludlows/python-pesq) with narrow band setting
+|pesq wb| float| [Perceptual Evaluation of Speech Quality](https://en.wikipedia.org/wiki/Perceptual_Evaluation_of_Speech_Quality), computed using [python-pesq](https://github.com/ludlows/python-pesq) with wide band setting
+|STOI| float| [Short Time Objective Intelligibility Measure](https://ieeexplore.ieee.org/document/5495701), computed using [pystoi](https://github.com/mpariente/pystoi)
+|SIIB| float| [Speech Intelligibility in Bits](https://arxiv.org/abs/1708.05132) computed using [pySIIB](https://github.com/kamo-naoyuki/pysiib) with all default settings.
+|SRMR| float| [Normalized speech-to-reverberation modulation energy ratio](https://ieeexplore.ieee.org/abstract/document/6953337), computed using [SRMRpy](https://github.com/jfsantos/SRMRpy) with norm=True.
 
 ---
 ### Source audio references
