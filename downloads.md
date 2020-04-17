@@ -27,6 +27,7 @@ There will be three files present:
 VOiCES_release.tar.gz (417.5 GiB)
 VOiCES_devkit.tar.gz (27.5 GiB)
 VOiCES_competition.tar.gz (19.5 GiB)
+recording_data.tar.gz (56 MiB)
 ```
 
 Download data using `aws s3 sync <source> <target> [--options]` or
