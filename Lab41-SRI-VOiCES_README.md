@@ -3,7 +3,7 @@ title: Readme
 feature_text: |
   ## Detailed VOiCES Readme
   Voices Obscured in Complex Environmental Settings
-feature_image: "/images/readme.jpg"
+feature_image: "/voices/images/readme.jpg"
 excerpt: "A detailed description of the VOiCES corpus"
 aside: False
 ---
