@@ -70,7 +70,7 @@ th, td {
 |Test| 6,400|
 |Total|19,200|
 
-## recording_data.tar.gz
+### recording_data.tar.gz
 
 `recording_data.tar.gz` contains two files, `distances.csv` and `quality_metrics.csv`, with auxiliary information for each recording in the VOiCES dataset, with a row for each recording.
 
