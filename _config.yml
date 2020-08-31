@@ -101,7 +101,7 @@ navigation_header:
   Mailing List: ./mailing_list/
 
 navigation_footer:
-  A Speech Collaboration: https://voices.github.io
+  A Speech Collaboration: https://voices18.github.io/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/_lab41
