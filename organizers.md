@@ -3,7 +3,7 @@ title: Organizers
 feature_text: |
   ## Organizers and Contact Information
   Voices Obscured in Complex Environmental Settings
-feature_image: "/images/Organizer_Page_VOiCES_Website.jpg"
+feature_image: "/voices/images/Organizer_Page_VOiCES_Website.jpg"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
@@ -17,7 +17,7 @@ aside: True
     Data Scientist
     </td>
     <td>
-    <img align="right" width="160" src="/images/MichaelLomnitz_lowerR.jpg">
+    <img align="right" width="160" src="/voices/images/MichaelLomnitz_lowerR.jpg">
     </td>
  </tr>
 </table>
@@ -30,7 +30,7 @@ aside: True
     Director of Strategic Partnerships
     </td>
     <td>
-    <img align="right" width="140" src="/images/Sandesara.jpg">
+    <img align="right" width="140" src="/voices/images/Sandesara.jpg">
     </td>
  </tr>
 </table>
@@ -43,7 +43,7 @@ aside: True
     Data Scientist
     </td>
     <td>
-    <img align="right" width="140" src="/images/jack_headshot.jpg">
+    <img align="right" width="140" src="/voices/images/jack_headshot.jpg">
     </td>
  </tr>
 </table>
@@ -56,7 +56,7 @@ aside: True
     Advanced Computer Scientist II
     </td>
     <td>
-    <img align="right" width="200" src="/images/mahesh.jpg">
+    <img align="right" width="200" src="/voices/images/mahesh.jpg">
     </td>
  </tr>
 </table>
@@ -69,7 +69,7 @@ aside: True
     Computer Scientist
     </td>
     <td>
-    <img align="right" width="150" src="/images/zeb_armstrong.jpg">
+    <img align="right" width="150" src="/voices/images/zeb_armstrong.jpg">
     </td>
  </tr>
 </table>
@@ -95,7 +95,7 @@ aside: True
     Advanced Linguist
     </td>
     <td>
-    <img align="right" width="200" src="/images/colleen_richey.jpg">
+    <img align="right" width="200" src="/voices/images/colleen_richey.jpg">
     </td>
  </tr>
 </table>
@@ -110,7 +110,7 @@ aside: True
     Head of Data Science
     </td>
     <td>
-    <img align="right" width="250" src="/images/maria_barrios.jpg">
+    <img align="right" width="250" src="/voices/images/maria_barrios.jpg">
     </td>
  </tr>
 </table>
@@ -123,7 +123,7 @@ aside: True
     Chief Scientist
     </td>
     <td>
-    <img align="right" width="200" src="/images/horacio_franco.jpg">
+    <img align="right" width="200" src="/voices/images/horacio_franco.jpg">
     </td>
  </tr>
 </table>
@@ -136,7 +136,7 @@ aside: True
     AI Resident
     </td>
     <td>
-    <img align="right" width="180" src="/images/paul_gamble.jpeg">
+    <img align="right" width="180" src="/voices/images/paul_gamble.jpeg">
     </td>
  </tr>
 </table>
@@ -149,7 +149,7 @@ aside: True
     Technical Manager
     </td>
     <td>
-    <img align="right" width="200" src="/images/martin_graciarena.jpg">
+    <img align="right" width="200" src="/voices/images/martin_graciarena.jpg">
     </td>
  </tr>
 </table>
@@ -162,7 +162,7 @@ aside: True
     ML Engineer
     </td>
     <td>
-    <img align="right" width="180" src="/images/jeff_hetherly.jpg">
+    <img align="right" width="180" src="/voices/images/jeff_hetherly.jpg">
     </td>
  </tr>
 </table>
@@ -175,7 +175,7 @@ aside: True
     Senior Software Engineer
     </td>
     <td>
-    <img align="right" width="180" src="/images/karl_ni.jpg">
+    <img align="right" width="180" src="/voices/images/karl_ni.jpg">
     </td>
  </tr>
 </table>
@@ -188,7 +188,7 @@ aside: True
     Computer Scientist
     </td>
     <td>
-    <img align="right" width="200" src="/images/allen_stauffer.png">
+    <img align="right" width="200" src="/voices/images/allen_stauffer.png">
     </td>
  </tr>
 </table>
@@ -201,7 +201,7 @@ aside: True
     Data Scientist
     </td>
     <td>
-    <img align="right" width="180" src="/images/cory_stephenson.jpg">
+    <img align="right" width="180" src="/voices/images/cory_stephenson.jpg">
     </td>
  </tr>
 </table>
