@@ -79,7 +79,7 @@ logo: "/images/VOiCES_logo.png" # Site logo, also used in jekyll-seo-tag
 description: "The Voices Obscured in Complex Environmental Settings (VOiCES) corpus is a creative commons speech dataset targeting acoustically challenging and reverberant environments with robust labels and truth data for transcription, denoising, and speaker identification." # Site description and default description, also used in jekyll-seo-tag
 url: "https://lab41.org" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/voices18.github.io"
+repo: "https://github.com/iqtlabs.github.io/voices/"
 email: "vsandesara@iqt.org"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "/assets/speech.ico" # "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
