@@ -3,7 +3,7 @@ title: Mailing List
 feature_text: |
   ## Join the VOiCES mailing list
   Receive updates, submit your papers so we can keep updated, and collaborate with us
-feature_image: "/images/Mailing_List_VOiCES_Website.jpg"
+feature_image: "/voices/images/Mailing_List_VOiCES_Website.jpg"
 excerpt: "Mailing list sign-up sheet"
 aside: True
 ---
