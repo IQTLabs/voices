@@ -3,7 +3,7 @@ title: Reading
 feature_text: |
   ## Download Page Links
   Voices Obscured in Complex Environmental Settings
-feature_image: "/images/VOICES_Download_Image.jpg"
+feature_image: "/voices/images/VOICES_Download_Image.jpg"
 excerpt: "A short description of the VOiCES corpus"
 aside: True
 ---
