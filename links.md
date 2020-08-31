@@ -3,7 +3,7 @@ title: Description
 feature_text: |
   ## Links to Resources, Competitions, and Sponsors
   Voices Obscured in Complex Environmental Settings
-feature_image: "/images/Voices_Links_and_Resources_2.jpg"
+feature_image: "/voices/images/Voices_Links_and_Resources_2.jpg"
 excerpt: "Links and Contacts"
 aside: True
 ---
